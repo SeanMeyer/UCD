@@ -1,6 +1,6 @@
 # Problem Solving Using Search
 
-The report on this project is available in PDF form. Below is a version converted to markdown, which may have some formatting issues and will not include images (such as graphs).
+The report on this project was created as a [PDF](https://github.com/SeanMeyer/UCD/blob/master/search-project/Programming%20Assignment%201.pdf). Below is a version converted to markdown, which may have some formatting issues and will not include images (such as graphs).
 
 # Problem Description
 
