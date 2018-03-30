@@ -1,0 +1,11 @@
+C:\Users\Nimblerabit\Documents\Visual Studio 2012\Projects\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe.config
+C:\Users\Nimblerabit\Documents\Visual Studio 2012\Projects\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe
+C:\Users\Nimblerabit\Documents\Visual Studio 2012\Projects\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.pdb
+C:\Users\Nimblerabit\Documents\Visual Studio 2012\Projects\ConsoleApplication2\ConsoleApplication2\bin\Debug\Moserware.Skills.dll
+C:\Users\Nimblerabit\Documents\Visual Studio 2012\Projects\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.csprojResolveAssemblyReference.cache
+C:\Users\Nimblerabit\Documents\Visual Studio 2012\Projects\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.exe
+C:\Users\Nimblerabit\Documents\Visual Studio 2012\Projects\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.pdb
+C:\Users\Nimblerabit\Documents\Visual Studio 2012\Projects\ConsoleApplication2\ConsoleApplication2\bin\Debug\MathNet.Numerics.dll
+C:\Users\Nimblerabit\Documents\Visual Studio 2012\Projects\ConsoleApplication2\ConsoleApplication2\bin\Debug\MathNet.Numerics.xml
+C:\Users\Nimblerabit\Documents\Visual Studio 2012\Projects\ConsoleApplication2\ConsoleApplication2\bin\Debug\LiveCharts.dll
+C:\Users\Nimblerabit\Documents\Visual Studio 2012\Projects\ConsoleApplication2\ConsoleApplication2\bin\Debug\LiveCharts.Wpf.dll

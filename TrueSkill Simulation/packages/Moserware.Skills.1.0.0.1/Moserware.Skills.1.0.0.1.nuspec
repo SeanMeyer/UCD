@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Moserware.Skills</id>
+    <version>1.0.0.1</version>
+    <title>Moserware.Skills</title>
+    <authors>Jeff Moser</authors>
+    <owners>Jeff Moser</owners>
+    <licenseUrl>https://github.com/moserware/Skills/blob/master/Skills/License.txt</licenseUrl>
+    <projectUrl>https://github.com/moserware/Skills/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Implementation of the TrueSkill algorithm.</description>
+    <summary />
+    <copyright>Copyright 2013</copyright>
+    <tags>TrueSkill rating</tags>
+    <references>
+      <reference file="Moserware.Skills.dll" />
+    </references>
+  </metadata>
+</package>
