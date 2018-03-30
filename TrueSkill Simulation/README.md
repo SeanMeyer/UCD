@@ -1,4 +1,4 @@
-# Adversarial Search with Connect 4
+# Multiplayer MMR (TrueSkill) Simulation
 
 The report on this project was created as a [PDF](https://github.com/SeanMeyer/UCD/blob/master/TrueSkill%20Simulation/Effect%20of%20Team%20Size%20on%20Skill%20Rating%20Convergence.pdf). Below is the introduction and setup, along with some example graphs of the results. View the PDF to see the entire project report, which includes results for a player joining an already established population.
 
