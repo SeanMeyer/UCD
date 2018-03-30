@@ -1,0 +1,302 @@
+\documentclass{article}
+\usepackage{minted}
+\usepackage{color}
+\definecolor{LightGray}{gray}{0.97}
+\usepackage[T1]{fontenc}
+\usepackage{inconsolata}
+\usepackage{bchart}
+\usepackage{sectsty}
+\usepackage[parfill]{parskip}
+\usepackage{amsmath}
+\usepackage{changepage}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{flafter}
+\usepackage{caption}
+
+
+\sectionfont{\large}
+\subsectionfont{\normalfont\underline}
+\subsubsectionfont{\normalfont\textit}
+\renewcommand{\refname}{\large References} 
+\def\Csharp{C\# }
+\captionsetup{labelformat=empty}
+
+
+\begin{document}
+\begin{center}
+  \large\textbf{Project 1 \textendash{} Distances in ABG}\\
+  \textit{Sean G Meyer}
+\end{center}
+
+\section*{Reachability Rules}
+I created my program so that every reachability rule is input as a simple function, with parameters of x-distance and y-distance between the first and second positions, along with the the actual x/y values for 1st and 2nd position (only used if necessary, in this case only for the pawn). Below are the reachability rules I created for each piece (different ones can easily be input manually when running program).
+
+\inputminted[breaklines,bgcolor=LightGray]{Clojure}{piece-definitions.clj}
+
+\section*{Sample Tables}
+Below are tables, one per chess piece, with sample locations computed. Each chess piece was placed on a different board of varying size with varying obstacles.
+
+\begin{table}[H]
+\centering
+\caption{Pawn on an 8x8 board with no obstacles, starting at position c2}
+\label{my-label}
+\begin{tabular}{lllllllll}
+                                & \textbf{a} & \textbf{b} & \textbf{c} & \textbf{d} & \textbf{e} & \textbf{f} & \textbf{g} & \textbf{h} \\ \cline{2-9} 
+\multicolumn{1}{l|}{\textbf{8}} & x          & x          & 6          & x          & x          & x          & x          & x          \\
+\multicolumn{1}{l|}{\textbf{7}} & x          & x          & 5          & x          & x          & x          & x          & x          \\
+\multicolumn{1}{l|}{\textbf{6}} & x          & x          & 4          & x          & x          & x          & x          & x          \\
+\multicolumn{1}{l|}{\textbf{5}} & x          & x          & 3          & x          & x          & x          & x          & x          \\
+\multicolumn{1}{l|}{\textbf{4}} & x          & x          & 2          & x          & x          & x          & x          & x          \\
+\multicolumn{1}{l|}{\textbf{3}} & x          & x          & 1          & x          & x          & x          & x          & x          \\
+\multicolumn{1}{l|}{\textbf{2}} & x          & x          & 0          & x          & x          & x          & x          & x          \\
+\multicolumn{1}{l|}{\textbf{1}} & x          & x          & x          & x          & x          & x          & x          & x         
+\end{tabular}
+\end{table}
+
+\begin{table}[H]
+\centering
+\caption{King on an 8x8 board with obstacles at positions marked {[}{]}}
+\label{my-label}
+\begin{tabular}{lllllllll}
+                                & \textbf{a} & \textbf{b} & \textbf{c} & \textbf{d} & \textbf{e} & \textbf{f} & \textbf{g} & \textbf{h} \\ \cline{2-9} 
+\multicolumn{1}{l|}{\textbf{8}} & 1          & 1          & 1          & 2          & 3          & 4          & 5          & 6          \\
+\multicolumn{1}{l|}{\textbf{7}} & 1          & 0          & 1          & 2          & 3          & 4          & 5          & 6          \\
+\multicolumn{1}{l|}{\textbf{6}} & 1          & 1          & 1          & 2          & {[}{]}          & {[}{]}          & 5          & 6          \\
+\multicolumn{1}{l|}{\textbf{5}} & 2          & 2          & 2          & 2          & {[}{]}          & {[}{]}          & 6          & 6          \\
+\multicolumn{1}{l|}{\textbf{4}} & 3          & 3          & 3          & 3          & {[}{]}          & {[}{]}          & 6          & 7          \\
+\multicolumn{1}{l|}{\textbf{3}} & 4          & 4          & 4          & 4          & 4          & 5          & 6          & 7          \\
+\multicolumn{1}{l|}{\textbf{2}} & 5          & 5          & 5          & 5          & 5          & 5          & 6          & 7          \\
+\multicolumn{1}{l|}{\textbf{1}} & 6          & 6          & 6          & 6          & 6          & 6          & 6          & 7         
+\end{tabular}
+\end{table}
+
+\begin{table}[H]
+\centering
+\caption{Knight on a 10x10 board with obstacles}
+\label{my-label}
+\begin{tabular}{lllllllllll}
+                                 & \textbf{a} & \textbf{b} & \textbf{c} & \textbf{d} & \textbf{e} & \textbf{f} & \textbf{g} & \textbf{h} & \textbf{i} & \textbf{j} \\ \cline{2-11} 
+\multicolumn{1}{l|}{\textbf{15}} & 4          & 3          & 4          & 3          & 4          & 3          & 4          & 3          & 4          & 3          \\
+\multicolumn{1}{l|}{\textbf{14}} & 3          & 4          & 3          & 4          & 3          & 2          & 3          & 2          & 3          & 4          \\
+\multicolumn{1}{l|}{\textbf{13}} & 4          & 3          & 2          & 3          & {[}{]}          & {[}{]}          & 2          & 3          & 2          & 3          \\
+\multicolumn{1}{l|}{\textbf{12}} & 3          & 2          & 3          & 4          & {[}{]}          & {[}{]}          & 1          & 4          & 3          & 2          \\
+\multicolumn{1}{l|}{\textbf{11}} & 4          & 3          & 2          & 1          & {[}{]}          & {[}{]}          & 4          & 1          & 2          & 3          \\
+\multicolumn{1}{l|}{\textbf{10}} & 3          & 2          & 3          & 2          & 3          & 0          & 3          & x          & 3          & 2          \\
+\multicolumn{1}{l|}{\textbf{9}}  & 4          & 3          & 2          & 1          & 2          & 3          & 2          & x          & 2          & 3          \\
+\multicolumn{1}{l|}{\textbf{8}}  & 3          & 2          & x          & 4          & 1          & 2          & 1          & 4          & 3          & 4          \\
+\multicolumn{1}{l|}{\textbf{7}}  & 4          & 3          & x          & 3          & 2          & 3          & 2          & 3          & 2          & 3          \\
+\multicolumn{1}{l|}{\textbf{6}}  & 3          & 4          & 3          & 2          & 3          & 2          & 3          & 2          & 3          & 4         
+\end{tabular}
+\end{table}
+
+\begin{table}[H]
+\centering
+\caption{Queen on a 10x10 board with no obstacles}
+\label{my-label}
+\begin{tabular}{lllllllllll}
+                                 & \textbf{a} & \textbf{b} & \textbf{c} & \textbf{d} & \textbf{e} & \textbf{f} & \textbf{g} & \textbf{h} & \textbf{i} & \textbf{j} \\ \cline{2-11} 
+\multicolumn{1}{l|}{\textbf{10}} & 1          & 2          & 2          & 2          & 2          & 1          & 2          & 2          & 2          & 2          \\
+\multicolumn{1}{l|}{\textbf{9}} & 2          & 1          & 2          & 2          & 2          & 1          & 2          & 2          & 2          & 1          \\
+\multicolumn{1}{l|}{\textbf{8}} & 2          & 2          & 1          & 2          & 2          & 1          & 2          & 2          & 1          & 2          \\
+\multicolumn{1}{l|}{\textbf{7}} & 2          & 2          & 2          & 1          & 2          & 1          & 2          & 1          & 2          & 2          \\
+\multicolumn{1}{l|}{\textbf{6}} & 2          & 2          & 2          & 2          & 1          & 1          & 1          & 2          & 2          & 2          \\
+\multicolumn{1}{l|}{\textbf{5}} & 1          & 1          & 1          & 1          & 1          & 0          & 1          & 1          & 1          & 1          \\
+\multicolumn{1}{l|}{\textbf{4}}  & 2          & 2          & 2          & 2          & 1          & 1          & 1          & 2          & 2          & 2          \\
+\multicolumn{1}{l|}{\textbf{3}}  & 2          & 2          & 2          & 1          & 2          & 1          & 2          & 1          & 2          & 2          \\
+\multicolumn{1}{l|}{\textbf{2}}  & 2          & 2          & 1          & 2          & 2          & 1          & 2          & 2          & 1          & 2          \\
+\multicolumn{1}{l|}{\textbf{1}}  & 2          & 1          & 2          & 2          & 2          & 1          & 2          & 2          & 2          & 1         
+\end{tabular}
+\end{table}
+
+\begin{table}[H]
+\centering
+\caption{Bishop on a 10x10 board with obstacles}
+\label{my-label}
+\begin{tabular}{lllllllllll}
+                                 & \textbf{a} & \textbf{b} & \textbf{c} & \textbf{d} & \textbf{e} & \textbf{f} & \textbf{g} & \textbf{h} & \textbf{i} & \textbf{j} \\ \cline{2-11} 
+\multicolumn{1}{l|}{\textbf{10}} & x          & 2          & x          & 2          & x          & 2          & x          & 2          & x          & 1          \\
+\multicolumn{1}{l|}{\textbf{9}}  & 3          & x          & 2          & x          & 2          & x          & 2          & x          & 1          & x          \\
+\multicolumn{1}{l|}{\textbf{8}}  & x          & 3          & x          & 2          & x          & 2          & x          & 1          & x          & 2          \\
+\multicolumn{1}{l|}{\textbf{7}}  & 2          & x          & 3          & x          & 2          & x          & 1          & x          & 2          & x          \\
+\multicolumn{1}{l|}{\textbf{6}}  & x          & 3          & x          & {[}{]}     & x          & 1          & x          & 2          & x          & 2          \\
+\multicolumn{1}{l|}{\textbf{5}}  & 3          & x          & 4          & {[}{]}     & 0          & x          & 2          & x          & 2          & x          \\
+\multicolumn{1}{l|}{\textbf{4}}  & x          & 3          & x          & {[}{]}     & x          & 1          & x          & 2          & x          & 2          \\
+\multicolumn{1}{l|}{\textbf{3}}  & 3          & x          & 3          & x          & 2          & x          & 1          & x          & 2          & x          \\
+\multicolumn{1}{l|}{\textbf{2}}  & x          & 3          & x          & 2          & x          & 2          & x          & 1          & x          & 2          \\
+\multicolumn{1}{l|}{\textbf{1}}  & 4          & x          & 2          & x          & 2          & x          & 2          & x          & 1          & x         
+\end{tabular}
+\end{table}
+
+\begin{table}[H]
+\centering
+\caption{Rook on a 10x10 board with obstacles}
+\label{my-label}
+\begin{tabular}{lllllllllll}
+                                 & \textbf{a} & \textbf{b} & \textbf{c} & \textbf{d} & \textbf{e} & \textbf{f} & \textbf{g} & \textbf{h} & \textbf{i} & \textbf{j} \\ \cline{2-11} 
+\multicolumn{1}{l|}{\textbf{10}} & 2          & 2          & 2          & 2          & 1          & 2          & 2          & 2          & 2          & 2          \\
+\multicolumn{1}{l|}{\textbf{9}}  & 2          & 2          & 2          & 2          & 1          & 2          & 2          & 2          & 2          & 2          \\
+\multicolumn{1}{l|}{\textbf{8}}  & 2          & 2          & 2          & 2          & 1          & 2          & 2          & 2          & 2          & 2          \\
+\multicolumn{1}{l|}{\textbf{7}}  & 2          & 2          & 2          & 2          & 1          & 2          & 2          & 2          & 2          & 2          \\
+\multicolumn{1}{l|}{\textbf{6}}  & 3          & 3          & 3          & {[}{]}     & 1          & 2          & 2          & 2          & 2          & 2          \\
+\multicolumn{1}{l|}{\textbf{5}}  & 3          & 3          & 3          & {[}{]}     & 0          & 1          & 1          & 1          & 1          & 1          \\
+\multicolumn{1}{l|}{\textbf{4}}  & 3          & 3          & 3          & {[}{]}     & 1          & 2          & 2          & 2          & 2          & 2          \\
+\multicolumn{1}{l|}{\textbf{3}}  & 2          & 2          & 2          & 2          & 1          & 2          & 2          & 2          & 2          & 2          \\
+\multicolumn{1}{l|}{\textbf{2}}  & 2          & 2          & 2          & 2          & 1          & 2          & 2          & 2          & 2          & 2          \\
+\multicolumn{1}{l|}{\textbf{1}}  & 2          & 2          & 2          & 2          & 1          & 2          & 2          & 2          & 2          & 2         
+\end{tabular}
+\end{table}
+
+
+\section*{15x15 Tables}
+Below are the 15x15 tables my program generated for each piece. These are generated when the input ABG is 8x8 with no obstacles.
+
+\begin{table}[H]
+\centering
+\caption{King 15x15}
+\label{my-label}
+\begin{tabular}{llllllllllllllll}
+                                 & \textbf{a} & \textbf{b} & \textbf{c} & \textbf{d} & \textbf{e} & \textbf{f} & \textbf{g} & \textbf{h} & \textbf{i} & \textbf{j} & \textbf{k} & \textbf{l} & \textbf{m} & \textbf{n} & \textbf{o} \\ \cline{2-16} 
+\multicolumn{1}{l|}{\textbf{15}} & 7          & 7          & 7          & 7          & 7          & 7          & 7          & 7          & 7          & 7          & 7          & 7          & 7          & 7          & 7          \\
+\multicolumn{1}{l|}{\textbf{14}} & 7          & 6          & 6          & 6          & 6          & 6          & 6          & 6          & 6          & 6          & 6          & 6          & 6          & 6          & 7          \\
+\multicolumn{1}{l|}{\textbf{13}} & 7          & 6          & 5          & 5          & 5          & 5          & 5          & 5          & 5          & 5          & 5          & 5          & 5          & 6          & 7          \\
+\multicolumn{1}{l|}{\textbf{12}} & 7          & 6          & 5          & 4          & 4          & 4          & 4          & 4          & 4          & 4          & 4          & 4          & 5          & 6          & 7          \\
+\multicolumn{1}{l|}{\textbf{11}} & 7          & 6          & 5          & 4          & 3          & 3          & 3          & 3          & 3          & 3          & 3          & 4          & 5          & 6          & 7          \\
+\multicolumn{1}{l|}{\textbf{10}} & 7          & 6          & 5          & 4          & 3          & 2          & 2          & 2          & 2          & 2          & 3          & 4          & 5          & 6          & 7          \\
+\multicolumn{1}{l|}{\textbf{9}}  & 7          & 6          & 5          & 4          & 3          & 2          & 1          & 1          & 1          & 2          & 3          & 4          & 5          & 6          & 7          \\
+\multicolumn{1}{l|}{\textbf{8}}  & 7          & 6          & 5          & 4          & 3          & 2          & 1          & 0          & 1          & 2          & 3          & 4          & 5          & 6          & 7          \\
+\multicolumn{1}{l|}{\textbf{7}}  & 7          & 6          & 5          & 4          & 3          & 2          & 1          & 1          & 1          & 2          & 3          & 4          & 5          & 6          & 7          \\
+\multicolumn{1}{l|}{\textbf{6}}  & 7          & 6          & 5          & 4          & 3          & 2          & 2          & 2          & 2          & 2          & 3          & 4          & 5          & 6          & 7          \\
+\multicolumn{1}{l|}{\textbf{5}}  & 7          & 6          & 5          & 4          & 3          & 3          & 3          & 3          & 3          & 3          & 3          & 4          & 5          & 6          & 7          \\
+\multicolumn{1}{l|}{\textbf{4}}  & 7          & 6          & 5          & 4          & 4          & 4          & 4          & 4          & 4          & 4          & 4          & 4          & 5          & 6          & 7          \\
+\multicolumn{1}{l|}{\textbf{3}}  & 7          & 6          & 5          & 5          & 5          & 5          & 5          & 5          & 5          & 5          & 5          & 5          & 5          & 6          & 7          \\
+\multicolumn{1}{l|}{\textbf{2}}  & 7          & 6          & 6          & 6          & 6          & 6          & 6          & 6          & 6          & 6          & 6          & 6          & 6          & 6          & 7          \\
+\multicolumn{1}{l|}{\textbf{1}}  & 7          & 7          & 7          & 7          & 7          & 7          & 7          & 7          & 7          & 7          & 7          & 7          & 7          & 7          & 7         
+\end{tabular}
+\end{table}
+
+\begin{table}[H]
+\centering
+\caption{Knight 15x15}
+\label{my-label}
+\begin{tabular}{llllllllllllllll}
+                                 & \textbf{a} & \textbf{b} & \textbf{c} & \textbf{d} & \textbf{e} & \textbf{f} & \textbf{g} & \textbf{h} & \textbf{i} & \textbf{j} & \textbf{k} & \textbf{l} & \textbf{m} & \textbf{n} & \textbf{o} \\ \cline{2-16} 
+\multicolumn{1}{l|}{\textbf{15}} & 6          & 5          & 6          & 5          & 4          & 5          & 4          & 5          & 4          & 5          & 4          & 5          & 4          & 5          & 6          \\
+\multicolumn{1}{l|}{\textbf{14}} & 5          & 6          & 5          & 4          & 5          & 4          & 5          & 4          & 5          & 4          & 5          & 4          & 5          & 4          & 5          \\
+\multicolumn{1}{l|}{\textbf{13}} & 6          & 5          & 4          & 5          & 4          & 3          & 4          & 3          & 4          & 3          & 4          & 3          & 4          & 5          & 4          \\
+\multicolumn{1}{l|}{\textbf{12}} & 5          & 4          & 5          & 4          & 3          & 4          & 3          & 4          & 3          & 4          & 3          & 4          & 3          & 4          & 5          \\
+\multicolumn{1}{l|}{\textbf{11}} & 4          & 5          & 4          & 3          & 4          & 3          & 2          & 3          & 2          & 3          & 2          & 3          & 4          & 3          & 4          \\
+\multicolumn{1}{l|}{\textbf{10}} & 5          & 4          & 3          & 4          & 3          & 2          & 3          & 2          & 3          & 2          & 3          & 2          & 3          & 4          & 3          \\
+\multicolumn{1}{l|}{\textbf{9}}  & 4          & 5          & 4          & 3          & 2          & 3          & 4          & 1          & 2          & 1          & 4          & 3          & 2          & 3          & 4          \\
+\multicolumn{1}{l|}{\textbf{8}}  & 5          & 4          & 3          & 4          & 3          & 2          & 1          & 2          & 3          & 2          & 1          & 2          & 3          & 4          & 3          \\
+\multicolumn{1}{l|}{\textbf{7}}  & 4          & 5          & 4          & 3          & 2          & 3          & 2          & 3          & 0          & 3          & 2          & 3          & 2          & 3          & 4          \\
+\multicolumn{1}{l|}{\textbf{6}}  & 5          & 4          & 3          & 4          & 3          & 2          & 1          & 2          & 3          & 2          & 1          & 2          & 3          & 4          & 3          \\
+\multicolumn{1}{l|}{\textbf{5}}  & 4          & 5          & 4          & 3          & 2          & 3          & 4          & 1          & 2          & 1          & 4          & 3          & 2          & 3          & 4          \\
+\multicolumn{1}{l|}{\textbf{4}}  & 5          & 4          & 3          & 4          & 3          & 2          & 3          & 2          & 3          & 2          & 3          & 2          & 3          & 4          & 3          \\
+\multicolumn{1}{l|}{\textbf{3}}  & 4          & 5          & 4          & 3          & 4          & 3          & 2          & 3          & 2          & 3          & 2          & 3          & 4          & 3          & 4          \\
+\multicolumn{1}{l|}{\textbf{2}}  & 5          & 4          & 5          & 4          & 3          & 4          & 3          & 4          & 3          & 4          & 3          & 4          & 3          & 4          & 5          \\
+\multicolumn{1}{l|}{\textbf{1}}  & 6          & 5          & 4          & 5          & 4          & 3          & 4          & 3          & 4          & 3          & 4          & 3          & 4          & 5          & 4         
+\end{tabular}
+\end{table}
+
+\begin{table}[H]
+\centering
+\caption{Queen 15x15}
+\label{my-label}
+\begin{tabular}{llllllllllllllll}
+                                 & \textbf{a} & \textbf{b} & \textbf{c} & \textbf{d} & \textbf{e} & \textbf{f} & \textbf{g} & \textbf{h} & \textbf{i} & \textbf{j} & \textbf{k} & \textbf{l} & \textbf{m} & \textbf{n} & \textbf{o} \\ \cline{2-16} 
+\multicolumn{1}{l|}{\textbf{15}} & 1          & 2          & 2          & 2          & 2          & 2          & 2          & 1          & 2          & 2          & 2          & 2          & 2          & 2          & 1          \\
+\multicolumn{1}{l|}{\textbf{14}} & 2          & 1          & 2          & 2          & 2          & 2          & 2          & 1          & 2          & 2          & 2          & 2          & 2          & 1          & 2          \\
+\multicolumn{1}{l|}{\textbf{13}} & 2          & 2          & 1          & 2          & 2          & 2          & 2          & 1          & 2          & 2          & 2          & 2          & 1          & 2          & 2          \\
+\multicolumn{1}{l|}{\textbf{12}} & 2          & 2          & 2          & 1          & 2          & 2          & 2          & 1          & 2          & 2          & 2          & 1          & 2          & 2          & 2          \\
+\multicolumn{1}{l|}{\textbf{11}} & 2          & 2          & 2          & 2          & 1          & 2          & 2          & 1          & 2          & 2          & 1          & 2          & 2          & 2          & 2          \\
+\multicolumn{1}{l|}{\textbf{10}} & 2          & 2          & 2          & 2          & 2          & 1          & 2          & 1          & 2          & 1          & 2          & 2          & 2          & 2          & 2          \\
+\multicolumn{1}{l|}{\textbf{9}}  & 2          & 2          & 2          & 2          & 2          & 2          & 1          & 1          & 1          & 2          & 2          & 2          & 2          & 2          & 2          \\
+\multicolumn{1}{l|}{\textbf{8}}  & 1          & 1          & 1          & 1          & 1          & 1          & 1          & 0          & 1          & 1          & 1          & 1          & 1          & 1          & 1          \\
+\multicolumn{1}{l|}{\textbf{7}}  & 2          & 2          & 2          & 2          & 2          & 2          & 1          & 1          & 1          & 2          & 2          & 2          & 2          & 2          & 2          \\
+\multicolumn{1}{l|}{\textbf{6}}  & 2          & 2          & 2          & 2          & 2          & 1          & 2          & 1          & 2          & 1          & 2          & 2          & 2          & 2          & 2          \\
+\multicolumn{1}{l|}{\textbf{5}}  & 2          & 2          & 2          & 2          & 1          & 2          & 2          & 1          & 2          & 2          & 1          & 2          & 2          & 2          & 2          \\
+\multicolumn{1}{l|}{\textbf{4}}  & 2          & 2          & 2          & 1          & 2          & 2          & 2          & 1          & 2          & 2          & 2          & 1          & 2          & 2          & 2          \\
+\multicolumn{1}{l|}{\textbf{3}}  & 2          & 2          & 1          & 2          & 2          & 2          & 2          & 1          & 2          & 2          & 2          & 2          & 1          & 2          & 2          \\
+\multicolumn{1}{l|}{\textbf{2}}  & 2          & 1          & 2          & 2          & 2          & 2          & 2          & 1          & 2          & 2          & 2          & 2          & 2          & 1          & 2          \\
+\multicolumn{1}{l|}{\textbf{1}}  & 1          & 2          & 2          & 2          & 2          & 2          & 2          & 1          & 2          & 2          & 2          & 2          & 2          & 2          & 1         
+\end{tabular}
+\end{table}
+
+\begin{table}[H]
+\centering
+\caption{Rook 15x15}
+\label{my-label}
+\begin{tabular}{llllllllllllllll}
+                                 & \textbf{a} & \textbf{b} & \textbf{c} & \textbf{d} & \textbf{e} & \textbf{f} & \textbf{g} & \textbf{h} & \textbf{i} & \textbf{j} & \textbf{k} & \textbf{l} & \textbf{m} & \textbf{n} & \textbf{o} \\ \cline{2-16} 
+\multicolumn{1}{l|}{\textbf{15}} & 2          & 2          & 2          & 2          & 2          & 2          & 2          & 1          & 2          & 2          & 2          & 2          & 2          & 2          & 2          \\
+\multicolumn{1}{l|}{\textbf{14}} & 2          & 2          & 2          & 2          & 2          & 2          & 2          & 1          & 2          & 2          & 2          & 2          & 2          & 2          & 2          \\
+\multicolumn{1}{l|}{\textbf{13}} & 2          & 2          & 2          & 2          & 2          & 2          & 2          & 1          & 2          & 2          & 2          & 2          & 2          & 2          & 2          \\
+\multicolumn{1}{l|}{\textbf{12}} & 2          & 2          & 2          & 2          & 2          & 2          & 2          & 1          & 2          & 2          & 2          & 2          & 2          & 2          & 2          \\
+\multicolumn{1}{l|}{\textbf{11}} & 2          & 2          & 2          & 2          & 2          & 2          & 2          & 1          & 2          & 2          & 2          & 2          & 2          & 2          & 2          \\
+\multicolumn{1}{l|}{\textbf{10}} & 2          & 2          & 2          & 2          & 2          & 2          & 2          & 1          & 2          & 2          & 2          & 2          & 2          & 2          & 2          \\
+\multicolumn{1}{l|}{\textbf{9}}  & 2          & 2          & 2          & 2          & 2          & 2          & 2          & 1          & 2          & 2          & 2          & 2          & 2          & 2          & 2          \\
+\multicolumn{1}{l|}{\textbf{8}}  & 1          & 1          & 1          & 1          & 1          & 1          & 1          & 0          & 1          & 1          & 1          & 1          & 1          & 1          & 1          \\
+\multicolumn{1}{l|}{\textbf{7}}  & 2          & 2          & 2          & 2          & 2          & 2          & 2          & 1          & 2          & 2          & 2          & 2          & 2          & 2          & 2          \\
+\multicolumn{1}{l|}{\textbf{6}}  & 2          & 2          & 2          & 2          & 2          & 2          & 2          & 1          & 2          & 2          & 2          & 2          & 2          & 2          & 2          \\
+\multicolumn{1}{l|}{\textbf{5}}  & 2          & 2          & 2          & 2          & 2          & 2          & 2          & 1          & 2          & 2          & 2          & 2          & 2          & 2          & 2          \\
+\multicolumn{1}{l|}{\textbf{4}}  & 2          & 2          & 2          & 2          & 2          & 2          & 2          & 1          & 2          & 2          & 2          & 2          & 2          & 2          & 2          \\
+\multicolumn{1}{l|}{\textbf{3}}  & 2          & 2          & 2          & 2          & 2          & 2          & 2          & 1          & 2          & 2          & 2          & 2          & 2          & 2          & 2          \\
+\multicolumn{1}{l|}{\textbf{2}}  & 2          & 2          & 2          & 2          & 2          & 2          & 2          & 1          & 2          & 2          & 2          & 2          & 2          & 2          & 2          \\
+\multicolumn{1}{l|}{\textbf{1}}  & 2          & 2          & 2          & 2          & 2          & 2          & 2          & 1          & 2          & 2          & 2          & 2          & 2          & 2          & 2         
+\end{tabular}
+\end{table}
+
+\begin{table}[H]
+\centering
+\caption{Bishop 15x15}
+\label{my-label}
+\begin{tabular}{llllllllllllllll}
+                                 & \textbf{a} & \textbf{b} & \textbf{c} & \textbf{d} & \textbf{e} & \textbf{f} & \textbf{g} & \textbf{h} & \textbf{i} & \textbf{j} & \textbf{k} & \textbf{l} & \textbf{m} & \textbf{n} & \textbf{o} \\ \cline{2-16} 
+\multicolumn{1}{l|}{\textbf{15}} & 1          & x          & 2          & x          & 2          & x          & 2          & x          & 2          & x          & 2          & x          & 2          & x          & 1          \\
+\multicolumn{1}{l|}{\textbf{14}} & x          & 1          & x          & 2          & x          & 2          & x          & 2          & x          & 2          & x          & 2          & x          & 1          & x          \\
+\multicolumn{1}{l|}{\textbf{13}} & 2          & x          & 1          & x          & 2          & x          & 2          & x          & 2          & x          & 2          & x          & 1          & x          & 2          \\
+\multicolumn{1}{l|}{\textbf{12}} & x          & 2          & x          & 1          & x          & 2          & x          & 2          & x          & 2          & x          & 1          & x          & 2          & x          \\
+\multicolumn{1}{l|}{\textbf{11}} & 2          & x          & 2          & x          & 1          & x          & 2          & x          & 2          & x          & 1          & x          & 2          & x          & 2          \\
+\multicolumn{1}{l|}{\textbf{10}} & x          & 2          & x          & 2          & x          & 1          & x          & 2          & x          & 1          & x          & 2          & x          & 2          & x          \\
+\multicolumn{1}{l|}{\textbf{9}}  & 2          & x          & 2          & x          & 2          & x          & 1          & x          & 1          & x          & 2          & x          & 2          & x          & 2          \\
+\multicolumn{1}{l|}{\textbf{8}}  & x          & 2          & x          & 2          & x          & 2          & x          & 0          & x          & 2          & x          & 2          & x          & 2          & x          \\
+\multicolumn{1}{l|}{\textbf{7}}  & 2          & x          & 2          & x          & 2          & x          & 1          & x          & 1          & x          & 2          & x          & 2          & x          & 2          \\
+\multicolumn{1}{l|}{\textbf{6}}  & x          & 2          & x          & 2          & x          & 1          & x          & 2          & x          & 1          & x          & 2          & x          & 2          & x          \\
+\multicolumn{1}{l|}{\textbf{5}}  & 2          & x          & 2          & x          & 1          & x          & 2          & x          & 2          & x          & 1          & x          & 2          & x          & 2          \\
+\multicolumn{1}{l|}{\textbf{4}}  & x          & 2          & x          & 1          & x          & 2          & x          & 2          & x          & 2          & x          & 1          & x          & 2          & x          \\
+\multicolumn{1}{l|}{\textbf{3}}  & 2          & x          & 1          & x          & 2          & x          & 2          & x          & 2          & x          & 2          & x          & 1          & x          & 2          \\
+\multicolumn{1}{l|}{\textbf{2}}  & x          & 1          & x          & 2          & x          & 2          & x          & 2          & x          & 2          & x          & 2          & x          & 1          & x          \\
+\multicolumn{1}{l|}{\textbf{1}}  & 1          & x          & 2          & x          & 2          & x          & 2          & x          & 2          & x          & 2          & x          & 2          & x          & 1         
+\end{tabular}
+\end{table}
+
+\begin{table}[H]
+\centering
+\caption{Pawn 15x15}
+\label{my-label}
+\begin{tabular}{llllllllllllllll}
+                                 & \textbf{a} & \textbf{b} & \textbf{c} & \textbf{d} & \textbf{e} & \textbf{f} & \textbf{g} & \textbf{h} & \textbf{i} & \textbf{j} & \textbf{k} & \textbf{l} & \textbf{m} & \textbf{n} & \textbf{o} \\ \cline{2-16} 
+\multicolumn{1}{l|}{\textbf{15}} & x          & x          & x          & x          & x          & x          & x          & 7          & x          & x          & x          & x          & x          & x          & x          \\
+\multicolumn{1}{l|}{\textbf{14}} & x          & x          & x          & x          & x          & x          & x          & 6          & x          & x          & x          & x          & x          & x          & x          \\
+\multicolumn{1}{l|}{\textbf{13}} & x          & x          & x          & x          & x          & x          & x          & 5          & x          & x          & x          & x          & x          & x          & x          \\
+\multicolumn{1}{l|}{\textbf{12}} & x          & x          & x          & x          & x          & x          & x          & 4          & x          & x          & x          & x          & x          & x          & x          \\
+\multicolumn{1}{l|}{\textbf{11}} & x          & x          & x          & x          & x          & x          & x          & 3          & x          & x          & x          & x          & x          & x          & x          \\
+\multicolumn{1}{l|}{\textbf{10}} & x          & x          & x          & x          & x          & x          & x          & 2          & x          & x          & x          & x          & x          & x          & x          \\
+\multicolumn{1}{l|}{\textbf{9}}  & x          & x          & x          & x          & x          & x          & x          & 1          & x          & x          & x          & x          & x          & x          & x          \\
+\multicolumn{1}{l|}{\textbf{8}}  & x          & x          & x          & x          & x          & x          & x          & 0          & x          & x          & x          & x          & x          & x          & x          \\
+\multicolumn{1}{l|}{\textbf{7}}  & x          & x          & x          & x          & x          & x          & x          & x          & x          & x          & x          & x          & x          & x          & x          \\
+\multicolumn{1}{l|}{\textbf{6}}  & x          & x          & x          & x          & x          & x          & x          & x          & x          & x          & x          & x          & x          & x          & x          \\
+\multicolumn{1}{l|}{\textbf{5}}  & x          & x          & x          & x          & x          & x          & x          & x          & x          & x          & x          & x          & x          & x          & x          \\
+\multicolumn{1}{l|}{\textbf{4}}  & x          & x          & x          & x          & x          & x          & x          & x          & x          & x          & x          & x          & x          & x          & x          \\
+\multicolumn{1}{l|}{\textbf{3}}  & x          & x          & x          & x          & x          & x          & x          & x          & x          & x          & x          & x          & x          & x          & x          \\
+\multicolumn{1}{l|}{\textbf{2}}  & x          & x          & x          & x          & x          & x          & x          & x          & x          & x          & x          & x          & x          & x          & x          \\
+\multicolumn{1}{l|}{\textbf{1}}  & x          & x          & x          & x          & x          & x          & x          & x          & x          & x          & x          & x          & x          & x          & x         
+\end{tabular}
+\end{table}
+
+
+\section*{Implementation}
+The code was implemented in the programming language Clojure. Source code is included in a file alongside this report. There is no runnable executable at this time, but one can be created on request if needed.
+    
+\end{document}

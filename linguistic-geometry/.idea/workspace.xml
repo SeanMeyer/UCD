@@ -1,0 +1,1424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3810da1d-2068-4ca3-a092-4f32a0647182" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="zones.clj" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/lg_project1/zones.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="642">
+              <caret line="363" column="0" lean-forward="true" selection-start-line="363" selection-start-column="0" selection-end-line="363" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>8</find>
+      <find>location</find>
+      <find>0.1</find>
+      <find>rook</find>
+      <find>:max 1</find>
+      <find>count</find>
+      <find>generate</find>
+      <find>piece</find>
+      <find>filter</find>
+      <find>blocked</find>
+      <find>same-sid</find>
+      <find>reach</find>
+      <find>piece-reach</find>
+      <find>mget</find>
+      <find>mset</find>
+      <find>printmget</find>
+      <find>dissoc</find>
+      <find>let [g</find>
+      <find>some</find>
+      <find>j</find>
+      <find>jutsu-</find>
+      <find>jutsu-head</find>
+      <find>jutsu-header</find>
+      <find>jutsu</find>
+      <find>block</find>
+      <find>test-data</find>
+      <find>remove</find>
+      <find>get-piece</find>
+      <find>get-piece-trajectories</find>
+      <find>main-traj</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\Users\Nimblerabit\Nextcloud\UCD\Linguistic Geometry\Sean\Projects\lg-project1</dir>
+    </dirStrings>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/lg_project1/core.clj" />
+        <option value="$PROJECT_DIR$/src/lg_project1/reachability.clj" />
+        <option value="$PROJECT_DIR$/project.clj" />
+        <option value="$PROJECT_DIR$/src/lg_project1/trajectories.clj" />
+        <option value="$PROJECT_DIR$/src/lg_project1/zones.clj" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1602" />
+    <option name="y" value="116" />
+    <option name="width" value="1793" />
+    <option name="height" value="1279" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="cursive.last.file.extension.F\:/Dropbox/UCD/Linguistic Geometry/Sean/Projects/lg-project1/src" value="clj" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="cursive.last.file.extension.C\:/Users/Nimblerabit/Nextcloud/UCD/Linguistic Geometry/Sean/Projects/lg-project1/src" value="clj" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Nimblerabit\Nextcloud\UCD\Linguistic Geometry\Sean\Projects\lg-project1\src\lg_project1" />
+    </key>
+  </component>
+  <component name="ReplState" timestamp="1513493778715">{:repl-history {:ide [], :local [{:command &quot;(input-loop)&quot;, :offset 12, :ns &quot;lg-project1.reachability&quot;} {:command &quot;(into [] (map (partial traj-line true) (get-trajectories traj-input)))&quot;, :offset 9, :ns &quot;lg-project1.trajectories&quot;} {:command &quot;(into [3 ] (map (partial traj-line true) (get-trajectories traj-input)))&quot;, :offset 9, :ns &quot;lg-project1.trajectories&quot;} {:command &quot;(traj-line (first (get-trajectories traj-input)) \&quot;test\&quot; false)&quot;, :offset 62, :ns &quot;lg-project1.trajectories&quot;} {:command &quot;(traj-line true (first (get-trajectories traj-input)))&quot;, :offset 54, :ns &quot;lg-project1.trajectories&quot;} {:command &quot;(into [] (traj-line true (first (get-trajectories traj-input))))&quot;, :offset 64, :ns &quot;lg-project1.trajectories&quot;} {:command &quot;(vec (traj-line true (first (get-trajectories traj-input))))&quot;, :offset 60, :ns &quot;lg-project1.trajectories&quot;} {:command &quot;(data-for-plot-from-trajectories (get-trajectories traj-input))&quot;, :offset 63, :ns &quot;lg-project1.trajectories&quot;} {:command &quot;(get-trajectories)&quot;, :offset 18, :ns &quot;lg-project1.trajectories&quot;} {:command &quot;(get-trajectories traj-input)&quot;, :offset 29, :ns &quot;lg-project1.trajectories&quot;} {:command &quot;(j/graph! \&quot;test\&quot; test-data test-layout)\n          &quot;, :offset 39, :ns &quot;lg-project1.trajectories&quot;} {:command &quot;(j/graph! \&quot;test\&quot; test-data plot-layout)\n          &quot;, :offset 39, :ns &quot;lg-project1.trajectories&quot;} {:command &quot;(j/graph! \&quot;test\&quot; (traj-to-plot (get-trajectories traj-input)) test-layout)&quot;, :offset 74, :ns &quot;lg-project1.trajectories&quot;} {:command &quot;(traj-input-to-plot traj-input)&quot;, :offset 31, :ns &quot;lg-project1.trajectories&quot;} {:command &quot;(j/graph! \&quot;test\&quot; (traj-input-to-plot traj-input) plot-layout)&quot;, :offset 61, :ns &quot;lg-project1.trajectories&quot;} {:command &quot;(print traj-input)&quot;, :offset 18, :ns &quot;lg-project1.trajectories&quot;} {:command &quot;(clojure.pprint/pprint traj-input)&quot;, :offset 34, :ns &quot;lg-project1.trajectories&quot;} {:command &quot;(add-graph \&quot;Test Graph\&quot; \&quot;This is some text\&quot; traj-input)&quot;, :offset 55, :ns &quot;lg-project1.trajectories&quot;} {:command &quot;(add-graph \&quot;Test Graph really long text here how does that work\&quot; \&quot;This is some text\&quot; traj-input)&quot;, :offset 63, :ns &quot;lg-project1.trajectories&quot;} {:command &quot;(admissable traj-input)&quot;, :offset 23, :ns &quot;lg-project1.trajectories&quot;} {:command &quot;(traj-input-to-plot (dissoc traj-input :blocked-list))&quot;, :offset 54, :ns &quot;lg-project1.trajectories&quot;} {:command &quot;(add-graph \&quot;Test\&quot; \&quot;my test\&quot; (dissoc traj-input :blocked-list))&quot;, :offset 62, :ns &quot;lg-project1.trajectories&quot;} {:command &quot;(add-graph-admis \&quot;Queen Admissable\&quot; \&quot;Queen from [1 1] to [1 8] with admissable degree 2\&quot;\n                 {:size [8 8]\n                  :blocked-list []\n                  :start-pos [1 1]\n                  :target-pos [1 8]\n                  :reachability queen\n                  :backwards nil})\n                 &quot;, :offset 297, :ns &quot;lg-project1.trajectories&quot;} {:command &quot;(main-test)&quot;, :offset 11, :ns &quot;lg-project1.trajectories&quot;} {:command &quot;(str :test)&quot;, :offset 11, :ns &quot;lg-project1.trajectories&quot;} {:command &quot;data&quot;, :offset 4, :ns &quot;lg-project1.trajectories&quot;} {:command &quot;(j/graph! data layout)&quot;, :offset 22, :ns &quot;lg-project1.zones&quot;} {:command &quot;(j/graph! test-data plot-layout)&quot;, :offset 32, :ns &quot;lg-project1.zones&quot;} {:command &quot;(j/start-jutsu!)&quot;, :offset 16, :ns &quot;lg-project1.zones&quot;} {:command &quot;(j/graph!\n  \&quot;foo\&quot;\n  [{:x [1 2 3 4]\n    :y [1 2 3 4]\n    :mode \&quot;markers\&quot;\n    :type \&quot;scatter\&quot;}])&quot;, :offset 94, :ns &quot;lg-project1.zones&quot;} {:command &quot;(j/graph! \&quot;test\&quot; test-data plot-layout)&quot;, :offset 16, :ns &quot;lg-project1.zones&quot;} {:command &quot;(j/graph! \&quot;Zone\&quot; data layout)&quot;, :offset 29, :ns &quot;lg-project1.zones&quot;} {:command &quot;(j/update-graph! \&quot;Zone\&quot; (piece-marker :pawn :white [7 7]))&quot;, :offset 58, :ns &quot;lg-project1.zones&quot;} {:command &quot;(piece-marker :pawn :white [7 7])&quot;, :offset 33, :ns &quot;lg-project1.zones&quot;} {:command &quot;(j/update-graph! \&quot;Zone\&quot; {:data (piece-marker :pawn :white [7 7])\n                         :traces [3]})&quot;, :offset 103, :ns &quot;lg-project1.zones&quot;} {:command &quot;(j/update-graph! \&quot;Zone\&quot; {:data (piece-marker :pawn :white [7 7])\n                         :traces [0]})&quot;, :offset 103, :ns &quot;lg-project1.zones&quot;} {:command &quot;(j/update-graph! \&quot;Zone\&quot; {:data (piece-marker :pawn :white [7 7])\n                         :traces [1]})&quot;, :offset 100, :ns &quot;lg-project1.zones&quot;} {:command &quot;(j/update-graph! \&quot;Zone\&quot; {:data (piece-marker :pawn :white [7 7])})&quot;, :offset 62, :ns &quot;lg-project1.zones&quot;} {:command &quot;(j/update-graph! \&quot;Zone\&quot; {:data {:y [[7]] :x [[5]]}\n                         :traces [0]})&quot;, :offset 89, :ns &quot;lg-project1.zones&quot;} {:command &quot;(j/update-graph! \&quot;Zone\&quot; {:data {:y [[7]] :x [[5]]}\n                         :traces [5]})&quot;, :offset 89, :ns &quot;lg-project1.zones&quot;} {:command &quot;(j/update-graph! \&quot;Zone\&quot; {:data {:y [7] :x [5] :name \&quot;test\&quot;}})&quot;, :offset 61, :ns &quot;lg-project1.zones&quot;} {:command &quot;(:pieces reti)&quot;, :offset 14, :ns &quot;lg-project1.zones&quot;} {:command &quot;(get-piece-traces reti)&quot;, :offset 23, :ns &quot;lg-project1.zones&quot;} {:command &quot;(j/graph \&quot;Test\&quot; (starting-piece-traces reti) layout)&quot;, :offset 52, :ns &quot;lg-project1.zones&quot;} {:command &quot;(j/graph! \&quot;Test\&quot; (starting-piece-traces reti) layout)&quot;, :offset 53, :ns &quot;lg-project1.zones&quot;} {:command &quot;(main-traj-trace [[6 2] [4 4] [5 5]] :white)&quot;, :offset 44, :ns &quot;lg-project1.zones&quot;} {:command &quot;(test-zone-run)&quot;, :offset 15, :ns &quot;lg-project1.zones&quot;} {:command &quot;(j/graph! \&quot;Figure1\&quot;(test-zone-run) layout)&quot;, :offset 42, :ns &quot;lg-project1.zones&quot;} {:command &quot;(create-attack-zone figure1 {:piece-name :bishop :target-pos [5 5]}\n                    [[6 2] [4 4] [5 5]])&quot;, :offset 108, :ns &quot;lg-project1.zones&quot;} {:command &quot;{:time {[2 7] {:val 1, :side :black},\n        [3 6] {:val 1, :side :black},\n        [4 6] {:val 1, :side :black},\n        [3 3] {:val 2, :side :white},\n        [7 7] {:val 1, :side :black},\n        [6 5] {:val 1, :side :black}}}&quot;, :offset 228, :ns &quot;lg-project1.zones&quot;} {:command &quot;(def time-test{:time {[2 7] {:val 1, :side :black},\n                      [3 6] {:val 1, :side :black},\n                      [4 6] {:val 1, :side :black},\n                      [3 3] {:val 2, :side :white},\n                      [7 7] {:val 1, :side :black},\n                      [6 5] {:val 1, :side :black}}})&quot;, :offset 313, :ns &quot;lg-project1.zones&quot;} {:command &quot;(negation-graph-reducer [] (create-attack-zone figure1))&quot;, :offset 56, :ns &quot;lg-project1.zones&quot;} {:command &quot;(negation-graph-reducer [] (create-attack-zone figure1 {:piece-name :bishop :target-pos [5 5]}\n                                               [[6 2] [4 4] [5 5]]))&quot;, :offset 163, :ns &quot;lg-project1.zones&quot;} {:command &quot;(flatten (reduce negation-graph-reducer [] zone-output))&quot;, :offset 56, :ns &quot;lg-project1.zones&quot;} {:command &quot;(def zone-output \n  (create-attack-zone figure1 {:piece-name :bishop :target-pos [5 5]}\n                    [[6 2] [4 4] [5 5]]))&quot;, :offset 129, :ns &quot;lg-project1.zones&quot;} {:command &quot;(reduce negation-graph-reducer [] zone-output)&quot;, :offset 46, :ns &quot;lg-project1.zones&quot;} {:command &quot;(reduce negation-graph-reducer [{:game figure1}] zone-output)&quot;, :offset 61, :ns &quot;lg-project1.zones&quot;} {:command &quot;(assoc {:game \&quot;test\&quot;} :data \&quot;something\&quot;)&quot;, :offset 40, :ns &quot;lg-project1.zones&quot;} {:command &quot;{:piece :pawn-w2, :trajectory [[4 5] [3 6]], :length 1, :side :white}&quot;, :offset 69, :ns &quot;lg-project1.zones&quot;} {:command &quot;(draw-zone-line figure1 {:piece :pawn-w2, :trajectory [[4 5] [3 6]], :length 1, :side :white})&quot;, :offset 24, :ns &quot;lg-project1.zones&quot;} {:command &quot;(reduce negation-graph-reducer {:game figure1} zone-output)&quot;, :offset 59, :ns &quot;lg-project1.zones&quot;} {:command &quot;zone-output&quot;, :offset 11, :ns &quot;lg-project1.zones&quot;} {:command &quot;(map #(reduce negation-graph-reducer {:game reti} %) ret-test)&quot;, :offset 62, :ns &quot;lg-project1.zones&quot;} {:command &quot;(:data (map #(reduce negation-graph-reducer {:game reti} %) ret-test))&quot;, :offset 70, :ns &quot;lg-project1.zones&quot;} {:command &quot;(map :data (map #(reduce negation-graph-reducer {:game reti} %) ret-test))&quot;, :offset 74, :ns &quot;lg-project1.zones&quot;} {:command &quot;(flatten (map :data (map #(reduce negation-graph-reducer {:game reti} %) ret-test)))&quot;, :offset 9, :ns &quot;lg-project1.zones&quot;} {:command &quot;(is-pawn? reti :pawn-white)&quot;, :offset 27, :ns &quot;lg-project1.zones&quot;} {:command &quot;(let [reachability (piece-reachability reti :pawn-white)\n      y-fun (:y (first reachability))\n      to-end (iterate y-fun (last [3 6]))\n      y-end (some #(when (or (= % 0) (= % 8))) to-end)]\n  y-end)&quot;, :offset 201, :ns &quot;lg-project1.zones&quot;} {:command &quot;(let [reachability (piece-reachability reti :pawn-white)\n      y-fun (:y (first reachability))]\n  y-fun)&quot;, :offset 104, :ns &quot;lg-project1.zones&quot;} {:command &quot;(let [reachability (piece-reachability reti :pawn-white)\n      y-fun (:y (first reachability))\n      to-end (iterate y-fun (last [3 6]))]\n  to-end)&quot;, :offset 147, :ns &quot;lg-project1.zones&quot;} {:command &quot;((let [reachability (piece-reachability reti :pawn-white)\n       y-fun (:y (first reachability))]\n   y-fun) 3)&quot;, :offset 110, :ns &quot;lg-project1.zones&quot;} {:command &quot;(take 2 (iterate dec 6))&quot;, :offset 24, :ns &quot;lg-project1.zones&quot;} {:command &quot;(take 3 (iterate dec 6))&quot;, :offset 24, :ns &quot;lg-project1.zones&quot;} {:command &quot;(last [3 6])&quot;, :offset 12, :ns &quot;lg-project1.zones&quot;} {:command &quot;(let [reachability (piece-reachability reti :pawn-white)\n      y-fun (:y (first reachability))\n      to-end (iterate y-fun (last [3 6]))]\n  (take 3 to-end))&quot;, :offset 156, :ns &quot;lg-project1.zones&quot;} {:command &quot;(let [reachability (piece-reachability reti :pawn-white)\n      y-fun (:y (first reachability))\n      to-end (iterate y-fun (last [3 6]))]\n  (take 5 to-end))&quot;, :offset 156, :ns &quot;lg-project1.zones&quot;} {:command &quot;(let [reachability (piece-reachability reti :pawn-white)\n      y-fun (:y (first reachability))\n      to-end (iterate y-fun (last [3 6]))]\n  (take-while #(when (or (= % 0) (= % 8))) to-end))&quot;, :offset 189, :ns &quot;lg-project1.zones&quot;} {:command &quot;(let [reachability (piece-reachability reti :pawn-white)\n      y-fun (:y (first reachability))\n      to-end (iterate y-fun (last [3 6]))]\n  (take-while #((or (= % 0) (= % 8))) to-end))&quot;, :offset 184, :ns &quot;lg-project1.zones&quot;} {:command &quot;(let [reachability (piece-reachability reti :pawn-white)\n      y-fun (:y (first reachability))\n      to-end (iterate y-fun (last [3 6]))]\n  (take-while #(or (= % 0) (= % 8)) to-end))&quot;, :offset 182, :ns &quot;lg-project1.zones&quot;} {:command &quot;(let [reachability (piece-reachability reti :pawn-white)\n      y-fun (:y (first reachability))\n      to-end (iterate y-fun (last [3 6]))]\n  (take-while #(not or (= % 0) (= % 8)) to-end))&quot;, :offset 186, :ns &quot;lg-project1.zones&quot;} {:command &quot;(find-pawn-upgrades reti)&quot;, :offset 25, :ns &quot;lg-project1.zones&quot;} {:command &quot;(find-all-attacks reti)&quot;, :offset 23, :ns &quot;lg-project1.zones&quot;} {:command &quot;(let [reachability (piece-reachability reti :pawn-white)\n      y-fun (:y (first reachability))\n      to-end (iterate y-fun (last [3 6]))]\n  (take-while #((not or (= % 0) (= % 8)) to-end)))&quot;, :offset 188, :ns &quot;lg-project1.zones&quot;} {:command &quot;(let [reachability (piece-reachability reti :pawn-white)\n      y-fun (:y (first reachability))\n      to-end (iterate y-fun (last [3 6]))]\n  (take-while #(not (or (= % 0) (= % 8))) to-end))&quot;, :offset 188, :ns &quot;lg-project1.zones&quot;} {:command &quot;ret-test&quot;, :offset 8, :ns &quot;lg-project1.zones&quot;} {:command &quot;(all-attack-zones reti)&quot;, :offset 23, :ns &quot;lg-project1.zones&quot;} {:command &quot;(concat (find-pawn-upgrades game) (find-all-attacks game))&quot;, :offset 58, :ns &quot;lg-project1.zones&quot;} {:command &quot;(concat (find-pawn-upgrades reti) (find-all-attacks reti))&quot;, :offset 58, :ns &quot;lg-project1.zones&quot;} {:command &quot;(get-piece-trajectories reti :pawn-white [3 8])&quot;, :offset 47, :ns &quot;lg-project1.zones&quot;} {:command &quot;(create-attack-zone reti {:piece-name :pawn-white :target-pos [3 1]})&quot;, :offset 69, :ns &quot;lg-project1.zones&quot;} {:command &quot;(get-piece-trajectories reti :pawn-white [3 1])&quot;, :offset 47, :ns &quot;lg-project1.zones&quot;} {:command &quot;(get-piece-trajectories reti :pawn-white [3 1] true)&quot;, :offset 52, :ns &quot;lg-project1.zones&quot;} {:command &quot;(get-piece-trajectories reti :pawn-white [3 1] false)&quot;, :offset 53, :ns &quot;lg-project1.zones&quot;} {:command &quot;(get-piece-trajectories reti :pawn-white [3 8] true)&quot;, :offset 52, :ns &quot;lg-project1.zones&quot;} {:command &quot;(create-attack-zone reti {:piece-name :pawn-white :target-pos [3 8]})&quot;, :offset 69, :ns &quot;lg-project1.zones&quot;} {:command &quot;(j/graph! \&quot;reti-test\&quot; (flatten (map :data (map #(reduce negation-graph-reducer-no-side {:game reti} %) ret-test)))\n          layout)&quot;, :offset 86, :ns &quot;lg-project1.zones&quot;} {:command &quot;(def ret-test (all-attack-zones ret))&quot;, :offset 37, :ns &quot;lg-project1.zones&quot;} {:command &quot;(def ret-test (all-attack-zones reti))&quot;, :offset 38, :ns &quot;lg-project1.zones&quot;} {:command &quot;(j/graph! \&quot;reti-test\&quot; (flatten (map :data (map #(reduce negation-graph-reducer {:game reti} %) ret-test)))\n          layout)&quot;, :offset 124, :ns &quot;lg-project1.zones&quot;} {:command &quot;(zone-console-test)\n  &quot;, :offset 22, :ns &quot;lg-project1.zones&quot;} {:command &quot;(zone-console-test)&quot;, :offset 19, :ns &quot;lg-project1.zones&quot;}], :remote []}}</component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Clojure REPL.REPL for lg-project1">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Local">
+      <setting name="replType" value="1" />
+      <module name="" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="" />
+      <setting name="profiles" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="ClojureScriptRunConfiguration" factoryName="Clojure Script">
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="" />
+      <setting name="repl" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="lg-project1" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <configuration default="false" name="core" type="ClojureScriptRunConfiguration" factoryName="Clojure Script">
+      <module name="lg-project1" />
+      <setting name="path" value="$PROJECT_DIR$/src/lg_project1/core.clj" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="$PROJECT_DIR$/src/lg_project1" />
+      <setting name="repl" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="REPL for lg-project1" type="ClojureREPL" factoryName="Local">
+      <setting name="replType" value="1" />
+      <module name="lg-project1" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="$PROJECT_DIR$" />
+      <setting name="profiles" value="" />
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Clojure Application.core" />
+      <item index="1" class="java.lang.String" itemvalue="Clojure REPL.REPL for lg-project1" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3810da1d-2068-4ca3-a092-4f32a0647182" name="Default" comment="" />
+      <created>1504900007664</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1504900007664</updated>
+      <workItem from="1504900012433" duration="40446000" />
+      <workItem from="1504992494954" duration="4921000" />
+      <workItem from="1505049460482" duration="12776000" />
+      <workItem from="1505699911619" duration="138000" />
+      <workItem from="1505777407722" duration="1464000" />
+      <workItem from="1505938486122" duration="24169000" />
+      <workItem from="1506185888331" duration="15921000" />
+      <workItem from="1506264930859" duration="1506000" />
+      <workItem from="1506712105640" duration="444000" />
+      <workItem from="1511546084643" duration="22787000" />
+      <workItem from="1511570338179" duration="57068000" />
+      <workItem from="1511817081030" duration="12874000" />
+      <workItem from="1513457934754" duration="32610000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="227124000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1602" y="116" width="1793" height="1279" extended-state="0" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32803348" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33145753" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2304" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948583" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22272499" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893652" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="65" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="ClojureREPL">
+        <watch expression="traj" />
+        <watch expression="((clojure.lang.MapEntry)((clojure.lang.PersistentArrayMap)zone).entrySet().toArray()[1]).getValue()" custom="clojure.lang.MapEntry,clojure.lang.PersistentArrayMap" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/lg_project1/reachability.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <folding>
+            <marker date="1513471435256" expanded="true" signature="0:91" ph="(ns lg-project1.reachability ...)" />
+            <marker date="1513471435256" expanded="true" signature="161:352" ph="(def king ...)" />
+            <marker date="1513471435256" expanded="true" signature="354:650" ph="(def knight ...)" />
+            <marker date="1513471435256" expanded="true" signature="653:770" ph="(defn define-movement ...)" />
+            <marker date="1513471435256" expanded="true" signature="772:831" ph="(def rook ...)" />
+            <marker date="1513471435256" expanded="true" signature="833:922" ph="(def bishop ...)" />
+            <marker date="1513471435256" expanded="true" signature="924:958" ph="(def queen ...)" />
+            <marker date="1513471435256" expanded="true" signature="960:996" ph="(def pawn-black ...)" />
+            <marker date="1513471435256" expanded="true" signature="998:1034" ph="(def pawn-white ...)" />
+            <marker date="1513471435256" expanded="true" signature="1036:1105" ph="(defn loc-conv ...)" />
+            <marker date="1513471435256" expanded="true" signature="1107:1225" ph="(defn print-mget ...)" />
+            <marker date="1513471435256" expanded="true" signature="1227:1283" ph="(defn print-mset ...)" />
+            <marker date="1513471435256" expanded="true" signature="1285:1361" ph="(defn r-get ...)" />
+            <marker date="1513471435256" expanded="true" signature="1363:1443" ph="(defn r-set ...)" />
+            <marker date="1513471435256" expanded="true" signature="1445:1515" ph="(defn ones-and-zeroes? ...)" />
+            <marker date="1513471435256" expanded="true" signature="1517:1577" ph="(def required-input-keys ...)" />
+            <marker date="1513471435256" expanded="true" signature="1579:1648" ph="(defn input-has-all-keys? ...)" />
+            <marker date="1513471435256" expanded="true" signature="1650:1907" ph="(defn valid-input-map? ...)" />
+            <marker date="1513471435256" expanded="true" signature="1909:2036" ph="(defn input-board-to-matrix ...)" />
+            <marker date="1513471435256" expanded="true" signature="2038:2234" ph="(defn input-board-convert-sentinels ...)" />
+            <marker date="1513471435256" expanded="true" signature="2236:2301" ph="(defn set-start-position ...)" />
+            <marker date="1513471435256" expanded="true" signature="2303:2429" ph="(defn generate-yx-vectors ...)" />
+            <marker date="1513471435256" expanded="true" signature="2431:2501" ph="(defn generate-positions-list ...)" />
+            <marker date="1513471435256" expanded="true" signature="2503:2738" ph="(def test-input ...)" />
+            <marker date="1513471435256" expanded="true" signature="2740:2967" ph="(defn reachable? ...)" />
+            <marker date="1513471435256" expanded="true" signature="2969:3262" ph="(defn reachable-positions-matrix ...)" />
+            <marker date="1513471435256" expanded="true" signature="3264:3540" ph="(defn movement-sequence ...)" />
+            <marker date="1513471435256" expanded="true" signature="3542:3685" ph="(defn all-movement-sequences ...)" />
+            <marker date="1513471435256" expanded="true" signature="3687:4044" ph="(defn get-reachable-positions-broken ...)" />
+            <marker date="1513471435256" expanded="true" signature="4046:4574" ph="(defn get-reachable-positions ...)" />
+            <marker date="1513471435256" expanded="true" signature="4576:5110" ph="(defn add-reachability-for-position ...)" />
+            <marker date="1513471435256" expanded="true" signature="5112:5564" ph="(defn process-next-moves-till-empty ...)" />
+            <marker date="1513471435256" expanded="true" signature="5566:6368" ph="(defn convert-input ...)" />
+            <marker date="1513471435256" expanded="true" signature="6370:6410" ph="(defn reachability-set ...)" />
+            <marker date="1513471435256" expanded="true" signature="6412:6699" ph="(defn get-reachability ...)" />
+            <marker date="1513471435256" expanded="true" signature="6701:6828" ph="(defn clean-vector ...)" />
+            <marker date="1513471435256" expanded="true" signature="6830:6947" ph="(defn print-reachability ...)" />
+            <marker date="1513471435256" expanded="true" signature="6949:7097" ph="(defn get-size ...)" />
+            <marker date="1513471435256" expanded="true" signature="7099:7475" ph="(defn get-blocked-list ...)" />
+            <marker date="1513471435256" expanded="true" signature="7477:7625" ph="(defn get-start-pos ...)" />
+            <marker date="1513471435256" expanded="true" signature="7627:8107" ph="(defn get-reachability-fn ...)" />
+            <marker date="1513471435256" expanded="true" signature="8109:8458" ph="(defn reachability-in-out ...)" />
+            <marker date="1513471435256" expanded="true" signature="8460:9068" ph="(defn run-examples ...)" />
+            <marker date="1513471435256" expanded="true" signature="9070:9582" ph="(defn input-loop ...)" />
+            <marker date="1513471435256" expanded="true" signature="9584:9620" ph="(defn -main-old ...)" />
+            <marker date="1513471435256" expanded="true" signature="9622:9703" ph="(defn test-run ...)" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lg_project1/zones.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5015">
+          <caret line="295" column="49" lean-forward="true" selection-start-line="295" selection-start-column="49" selection-end-line="295" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <marker date="1513474627462" expanded="true" signature="0:478" ph="(defproject lg-project1 ...)" />
+            <marker date="1513474627462" expanded="true" signature="0:496" ph="(defproject lg-project1 ...)" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lg_project1/reachability.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2550">
+          <caret line="150" column="24" lean-forward="false" selection-start-line="150" selection-start-column="24" selection-end-line="150" selection-end-column="24" />
+          <folding>
+            <marker date="1513471435256" expanded="true" signature="0:91" ph="(ns lg-project1.reachability ...)" />
+            <marker date="1513471435256" expanded="true" signature="161:352" ph="(def king ...)" />
+            <marker date="1513471435256" expanded="true" signature="354:650" ph="(def knight ...)" />
+            <marker date="1513471435256" expanded="true" signature="653:770" ph="(defn define-movement ...)" />
+            <marker date="1513471435256" expanded="true" signature="772:831" ph="(def rook ...)" />
+            <marker date="1513471435256" expanded="true" signature="833:922" ph="(def bishop ...)" />
+            <marker date="1513471435256" expanded="true" signature="924:958" ph="(def queen ...)" />
+            <marker date="1513471435256" expanded="true" signature="960:996" ph="(def pawn-black ...)" />
+            <marker date="1513471435256" expanded="true" signature="998:1034" ph="(def pawn-white ...)" />
+            <marker date="1513471435256" expanded="true" signature="1036:1105" ph="(defn loc-conv ...)" />
+            <marker date="1513471435256" expanded="true" signature="1107:1225" ph="(defn print-mget ...)" />
+            <marker date="1513471435256" expanded="true" signature="1227:1283" ph="(defn print-mset ...)" />
+            <marker date="1513471435256" expanded="true" signature="1285:1361" ph="(defn r-get ...)" />
+            <marker date="1513471435256" expanded="true" signature="1363:1443" ph="(defn r-set ...)" />
+            <marker date="1513471435256" expanded="true" signature="1445:1515" ph="(defn ones-and-zeroes? ...)" />
+            <marker date="1513471435256" expanded="true" signature="1517:1577" ph="(def required-input-keys ...)" />
+            <marker date="1513471435256" expanded="true" signature="1579:1648" ph="(defn input-has-all-keys? ...)" />
+            <marker date="1513471435256" expanded="true" signature="1650:1907" ph="(defn valid-input-map? ...)" />
+            <marker date="1513471435256" expanded="true" signature="1909:2036" ph="(defn input-board-to-matrix ...)" />
+            <marker date="1513471435256" expanded="true" signature="2038:2234" ph="(defn input-board-convert-sentinels ...)" />
+            <marker date="1513471435256" expanded="true" signature="2236:2301" ph="(defn set-start-position ...)" />
+            <marker date="1513471435256" expanded="true" signature="2303:2429" ph="(defn generate-yx-vectors ...)" />
+            <marker date="1513471435256" expanded="true" signature="2431:2501" ph="(defn generate-positions-list ...)" />
+            <marker date="1513471435256" expanded="true" signature="2503:2738" ph="(def test-input ...)" />
+            <marker date="1513471435256" expanded="true" signature="2740:2967" ph="(defn reachable? ...)" />
+            <marker date="1513471435256" expanded="true" signature="2969:3262" ph="(defn reachable-positions-matrix ...)" />
+            <marker date="1513471435256" expanded="true" signature="3264:3540" ph="(defn movement-sequence ...)" />
+            <marker date="1513471435256" expanded="true" signature="3542:3685" ph="(defn all-movement-sequences ...)" />
+            <marker date="1513471435256" expanded="true" signature="3687:4044" ph="(defn get-reachable-positions-broken ...)" />
+            <marker date="1513471435256" expanded="true" signature="4046:4574" ph="(defn get-reachable-positions ...)" />
+            <marker date="1513471435256" expanded="true" signature="4576:5110" ph="(defn add-reachability-for-position ...)" />
+            <marker date="1513471435256" expanded="true" signature="5112:5564" ph="(defn process-next-moves-till-empty ...)" />
+            <marker date="1513471435256" expanded="true" signature="5566:6368" ph="(defn convert-input ...)" />
+            <marker date="1513471435256" expanded="true" signature="6370:6410" ph="(defn reachability-set ...)" />
+            <marker date="1513471435256" expanded="true" signature="6412:6699" ph="(defn get-reachability ...)" />
+            <marker date="1513471435256" expanded="true" signature="6701:6828" ph="(defn clean-vector ...)" />
+            <marker date="1513471435256" expanded="true" signature="6830:6947" ph="(defn print-reachability ...)" />
+            <marker date="1513471435256" expanded="true" signature="6949:7097" ph="(defn get-size ...)" />
+            <marker date="1513471435256" expanded="true" signature="7099:7475" ph="(defn get-blocked-list ...)" />
+            <marker date="1513471435256" expanded="true" signature="7477:7625" ph="(defn get-start-pos ...)" />
+            <marker date="1513471435256" expanded="true" signature="7627:8107" ph="(defn get-reachability-fn ...)" />
+            <marker date="1513471435256" expanded="true" signature="8109:8458" ph="(defn reachability-in-out ...)" />
+            <marker date="1513471435256" expanded="true" signature="8460:9068" ph="(defn run-examples ...)" />
+            <marker date="1513471435256" expanded="true" signature="9070:9582" ph="(defn input-loop ...)" />
+            <marker date="1513471435256" expanded="true" signature="9584:9620" ph="(defn -main-old ...)" />
+            <marker date="1513471435256" expanded="true" signature="9622:9703" ph="(defn test-run ...)" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lg_project1/reachability.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="27" lean-forward="true" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+          <folding>
+            <marker date="1513471435256" expanded="true" signature="0:91" ph="(ns lg-project1.reachability ...)" />
+            <marker date="1513471435256" expanded="true" signature="161:352" ph="(def king ...)" />
+            <marker date="1513471435256" expanded="true" signature="354:650" ph="(def knight ...)" />
+            <marker date="1513471435256" expanded="true" signature="653:770" ph="(defn define-movement ...)" />
+            <marker date="1513471435256" expanded="true" signature="772:831" ph="(def rook ...)" />
+            <marker date="1513471435256" expanded="true" signature="833:922" ph="(def bishop ...)" />
+            <marker date="1513471435256" expanded="true" signature="924:958" ph="(def queen ...)" />
+            <marker date="1513471435256" expanded="true" signature="960:996" ph="(def pawn-black ...)" />
+            <marker date="1513471435256" expanded="true" signature="998:1034" ph="(def pawn-white ...)" />
+            <marker date="1513471435256" expanded="true" signature="1036:1105" ph="(defn loc-conv ...)" />
+            <marker date="1513471435256" expanded="true" signature="1107:1225" ph="(defn print-mget ...)" />
+            <marker date="1513471435256" expanded="true" signature="1227:1283" ph="(defn print-mset ...)" />
+            <marker date="1513471435256" expanded="true" signature="1285:1361" ph="(defn r-get ...)" />
+            <marker date="1513471435256" expanded="true" signature="1363:1443" ph="(defn r-set ...)" />
+            <marker date="1513471435256" expanded="true" signature="1445:1515" ph="(defn ones-and-zeroes? ...)" />
+            <marker date="1513471435256" expanded="true" signature="1517:1577" ph="(def required-input-keys ...)" />
+            <marker date="1513471435256" expanded="true" signature="1579:1648" ph="(defn input-has-all-keys? ...)" />
+            <marker date="1513471435256" expanded="true" signature="1650:1907" ph="(defn valid-input-map? ...)" />
+            <marker date="1513471435256" expanded="true" signature="1909:2036" ph="(defn input-board-to-matrix ...)" />
+            <marker date="1513471435256" expanded="true" signature="2038:2234" ph="(defn input-board-convert-sentinels ...)" />
+            <marker date="1513471435256" expanded="true" signature="2236:2301" ph="(defn set-start-position ...)" />
+            <marker date="1513471435256" expanded="true" signature="2303:2429" ph="(defn generate-yx-vectors ...)" />
+            <marker date="1513471435256" expanded="true" signature="2431:2501" ph="(defn generate-positions-list ...)" />
+            <marker date="1513471435256" expanded="true" signature="2503:2738" ph="(def test-input ...)" />
+            <marker date="1513471435256" expanded="true" signature="2740:2967" ph="(defn reachable? ...)" />
+            <marker date="1513471435256" expanded="true" signature="2969:3262" ph="(defn reachable-positions-matrix ...)" />
+            <marker date="1513471435256" expanded="true" signature="3264:3540" ph="(defn movement-sequence ...)" />
+            <marker date="1513471435256" expanded="true" signature="3542:3685" ph="(defn all-movement-sequences ...)" />
+            <marker date="1513471435256" expanded="true" signature="3687:4044" ph="(defn get-reachable-positions-broken ...)" />
+            <marker date="1513471435256" expanded="true" signature="4046:4574" ph="(defn get-reachable-positions ...)" />
+            <marker date="1513471435256" expanded="true" signature="4576:5110" ph="(defn add-reachability-for-position ...)" />
+            <marker date="1513471435256" expanded="true" signature="5112:5564" ph="(defn process-next-moves-till-empty ...)" />
+            <marker date="1513471435256" expanded="true" signature="5566:6368" ph="(defn convert-input ...)" />
+            <marker date="1513471435256" expanded="true" signature="6370:6410" ph="(defn reachability-set ...)" />
+            <marker date="1513471435256" expanded="true" signature="6412:6699" ph="(defn get-reachability ...)" />
+            <marker date="1513471435256" expanded="true" signature="6701:6828" ph="(defn clean-vector ...)" />
+            <marker date="1513471435256" expanded="true" signature="6830:6947" ph="(defn print-reachability ...)" />
+            <marker date="1513471435256" expanded="true" signature="6949:7097" ph="(defn get-size ...)" />
+            <marker date="1513471435256" expanded="true" signature="7099:7475" ph="(defn get-blocked-list ...)" />
+            <marker date="1513471435256" expanded="true" signature="7477:7625" ph="(defn get-start-pos ...)" />
+            <marker date="1513471435256" expanded="true" signature="7627:8107" ph="(defn get-reachability-fn ...)" />
+            <marker date="1513471435256" expanded="true" signature="8109:8458" ph="(defn reachability-in-out ...)" />
+            <marker date="1513471435256" expanded="true" signature="8460:9068" ph="(defn run-examples ...)" />
+            <marker date="1513471435256" expanded="true" signature="9070:9582" ph="(defn input-loop ...)" />
+            <marker date="1513471435256" expanded="true" signature="9584:9620" ph="(defn -main-old ...)" />
+            <marker date="1513471435256" expanded="true" signature="9622:9703" ph="(defn test-run ...)" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lg_project1/reachability.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2975">
+          <caret line="175" column="22" lean-forward="true" selection-start-line="175" selection-start-column="22" selection-end-line="175" selection-end-column="22" />
+          <folding>
+            <marker date="1513471435256" expanded="true" signature="0:91" ph="(ns lg-project1.reachability ...)" />
+            <marker date="1513471435256" expanded="true" signature="161:352" ph="(def king ...)" />
+            <marker date="1513471435256" expanded="true" signature="354:650" ph="(def knight ...)" />
+            <marker date="1513471435256" expanded="true" signature="653:770" ph="(defn define-movement ...)" />
+            <marker date="1513471435256" expanded="true" signature="772:831" ph="(def rook ...)" />
+            <marker date="1513471435256" expanded="true" signature="833:922" ph="(def bishop ...)" />
+            <marker date="1513471435256" expanded="true" signature="924:958" ph="(def queen ...)" />
+            <marker date="1513471435256" expanded="true" signature="960:996" ph="(def pawn-black ...)" />
+            <marker date="1513471435256" expanded="true" signature="998:1034" ph="(def pawn-white ...)" />
+            <marker date="1513471435256" expanded="true" signature="1036:1105" ph="(defn loc-conv ...)" />
+            <marker date="1513471435256" expanded="true" signature="1107:1225" ph="(defn print-mget ...)" />
+            <marker date="1513471435256" expanded="true" signature="1227:1283" ph="(defn print-mset ...)" />
+            <marker date="1513471435256" expanded="true" signature="1285:1361" ph="(defn r-get ...)" />
+            <marker date="1513471435256" expanded="true" signature="1363:1443" ph="(defn r-set ...)" />
+            <marker date="1513471435256" expanded="true" signature="1445:1515" ph="(defn ones-and-zeroes? ...)" />
+            <marker date="1513471435256" expanded="true" signature="1517:1577" ph="(def required-input-keys ...)" />
+            <marker date="1513471435256" expanded="true" signature="1579:1648" ph="(defn input-has-all-keys? ...)" />
+            <marker date="1513471435256" expanded="true" signature="1650:1907" ph="(defn valid-input-map? ...)" />
+            <marker date="1513471435256" expanded="true" signature="1909:2036" ph="(defn input-board-to-matrix ...)" />
+            <marker date="1513471435256" expanded="true" signature="2038:2234" ph="(defn input-board-convert-sentinels ...)" />
+            <marker date="1513471435256" expanded="true" signature="2236:2301" ph="(defn set-start-position ...)" />
+            <marker date="1513471435256" expanded="true" signature="2303:2429" ph="(defn generate-yx-vectors ...)" />
+            <marker date="1513471435256" expanded="true" signature="2431:2501" ph="(defn generate-positions-list ...)" />
+            <marker date="1513471435256" expanded="true" signature="2503:2738" ph="(def test-input ...)" />
+            <marker date="1513471435256" expanded="true" signature="2740:2967" ph="(defn reachable? ...)" />
+            <marker date="1513471435256" expanded="true" signature="2969:3262" ph="(defn reachable-positions-matrix ...)" />
+            <marker date="1513471435256" expanded="true" signature="3264:3540" ph="(defn movement-sequence ...)" />
+            <marker date="1513471435256" expanded="true" signature="3542:3685" ph="(defn all-movement-sequences ...)" />
+            <marker date="1513471435256" expanded="true" signature="3687:4044" ph="(defn get-reachable-positions-broken ...)" />
+            <marker date="1513471435256" expanded="true" signature="4046:4574" ph="(defn get-reachable-positions ...)" />
+            <marker date="1513471435256" expanded="true" signature="4576:5110" ph="(defn add-reachability-for-position ...)" />
+            <marker date="1513471435256" expanded="true" signature="5112:5564" ph="(defn process-next-moves-till-empty ...)" />
+            <marker date="1513471435256" expanded="true" signature="5566:6368" ph="(defn convert-input ...)" />
+            <marker date="1513471435256" expanded="true" signature="6370:6410" ph="(defn reachability-set ...)" />
+            <marker date="1513471435256" expanded="true" signature="6412:6699" ph="(defn get-reachability ...)" />
+            <marker date="1513471435256" expanded="true" signature="6701:6828" ph="(defn clean-vector ...)" />
+            <marker date="1513471435256" expanded="true" signature="6830:6947" ph="(defn print-reachability ...)" />
+            <marker date="1513471435256" expanded="true" signature="6949:7097" ph="(defn get-size ...)" />
+            <marker date="1513471435256" expanded="true" signature="7099:7475" ph="(defn get-blocked-list ...)" />
+            <marker date="1513471435256" expanded="true" signature="7477:7625" ph="(defn get-start-pos ...)" />
+            <marker date="1513471435256" expanded="true" signature="7627:8107" ph="(defn get-reachability-fn ...)" />
+            <marker date="1513471435256" expanded="true" signature="8109:8458" ph="(defn reachability-in-out ...)" />
+            <marker date="1513471435256" expanded="true" signature="8460:9068" ph="(defn run-examples ...)" />
+            <marker date="1513471435256" expanded="true" signature="9070:9582" ph="(defn input-loop ...)" />
+            <marker date="1513471435256" expanded="true" signature="9584:9620" ph="(defn -main-old ...)" />
+            <marker date="1513471435256" expanded="true" signature="9622:9703" ph="(defn test-run ...)" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lg_project1/reachability.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2244">
+          <caret line="132" column="0" lean-forward="true" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
+          <folding>
+            <marker date="1513471435256" expanded="true" signature="0:91" ph="(ns lg-project1.reachability ...)" />
+            <marker date="1513471435256" expanded="true" signature="161:352" ph="(def king ...)" />
+            <marker date="1513471435256" expanded="true" signature="354:650" ph="(def knight ...)" />
+            <marker date="1513471435256" expanded="true" signature="653:770" ph="(defn define-movement ...)" />
+            <marker date="1513471435256" expanded="true" signature="772:831" ph="(def rook ...)" />
+            <marker date="1513471435256" expanded="true" signature="833:922" ph="(def bishop ...)" />
+            <marker date="1513471435256" expanded="true" signature="924:958" ph="(def queen ...)" />
+            <marker date="1513471435256" expanded="true" signature="960:996" ph="(def pawn-black ...)" />
+            <marker date="1513471435256" expanded="true" signature="998:1034" ph="(def pawn-white ...)" />
+            <marker date="1513471435256" expanded="true" signature="1036:1105" ph="(defn loc-conv ...)" />
+            <marker date="1513471435256" expanded="true" signature="1107:1225" ph="(defn print-mget ...)" />
+            <marker date="1513471435256" expanded="true" signature="1227:1283" ph="(defn print-mset ...)" />
+            <marker date="1513471435256" expanded="true" signature="1285:1361" ph="(defn r-get ...)" />
+            <marker date="1513471435256" expanded="true" signature="1363:1443" ph="(defn r-set ...)" />
+            <marker date="1513471435256" expanded="true" signature="1445:1515" ph="(defn ones-and-zeroes? ...)" />
+            <marker date="1513471435256" expanded="true" signature="1517:1577" ph="(def required-input-keys ...)" />
+            <marker date="1513471435256" expanded="true" signature="1579:1648" ph="(defn input-has-all-keys? ...)" />
+            <marker date="1513471435256" expanded="true" signature="1650:1907" ph="(defn valid-input-map? ...)" />
+            <marker date="1513471435256" expanded="true" signature="1909:2036" ph="(defn input-board-to-matrix ...)" />
+            <marker date="1513471435256" expanded="true" signature="2038:2234" ph="(defn input-board-convert-sentinels ...)" />
+            <marker date="1513471435256" expanded="true" signature="2236:2301" ph="(defn set-start-position ...)" />
+            <marker date="1513471435256" expanded="true" signature="2303:2429" ph="(defn generate-yx-vectors ...)" />
+            <marker date="1513471435256" expanded="true" signature="2431:2501" ph="(defn generate-positions-list ...)" />
+            <marker date="1513471435256" expanded="true" signature="2503:2738" ph="(def test-input ...)" />
+            <marker date="1513471435256" expanded="true" signature="2740:2967" ph="(defn reachable? ...)" />
+            <marker date="1513471435256" expanded="true" signature="2969:3262" ph="(defn reachable-positions-matrix ...)" />
+            <marker date="1513471435256" expanded="true" signature="3264:3540" ph="(defn movement-sequence ...)" />
+            <marker date="1513471435256" expanded="true" signature="3542:3685" ph="(defn all-movement-sequences ...)" />
+            <marker date="1513471435256" expanded="true" signature="3687:4044" ph="(defn get-reachable-positions-broken ...)" />
+            <marker date="1513471435256" expanded="true" signature="4046:4574" ph="(defn get-reachable-positions ...)" />
+            <marker date="1513471435256" expanded="true" signature="4576:5110" ph="(defn add-reachability-for-position ...)" />
+            <marker date="1513471435256" expanded="true" signature="5112:5564" ph="(defn process-next-moves-till-empty ...)" />
+            <marker date="1513471435256" expanded="true" signature="5566:6368" ph="(defn convert-input ...)" />
+            <marker date="1513471435256" expanded="true" signature="6370:6410" ph="(defn reachability-set ...)" />
+            <marker date="1513471435256" expanded="true" signature="6412:6699" ph="(defn get-reachability ...)" />
+            <marker date="1513471435256" expanded="true" signature="6701:6828" ph="(defn clean-vector ...)" />
+            <marker date="1513471435256" expanded="true" signature="6830:6947" ph="(defn print-reachability ...)" />
+            <marker date="1513471435256" expanded="true" signature="6949:7097" ph="(defn get-size ...)" />
+            <marker date="1513471435256" expanded="true" signature="7099:7475" ph="(defn get-blocked-list ...)" />
+            <marker date="1513471435256" expanded="true" signature="7477:7625" ph="(defn get-start-pos ...)" />
+            <marker date="1513471435256" expanded="true" signature="7627:8107" ph="(defn get-reachability-fn ...)" />
+            <marker date="1513471435256" expanded="true" signature="8109:8458" ph="(defn reachability-in-out ...)" />
+            <marker date="1513471435256" expanded="true" signature="8460:9068" ph="(defn run-examples ...)" />
+            <marker date="1513471435256" expanded="true" signature="9070:9582" ph="(defn input-loop ...)" />
+            <marker date="1513471435256" expanded="true" signature="9584:9620" ph="(defn -main-old ...)" />
+            <marker date="1513471435256" expanded="true" signature="9622:9703" ph="(defn test-run ...)" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lg_project1/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3434">
+          <caret line="202" column="0" lean-forward="true" selection-start-line="202" selection-start-column="0" selection-end-line="202" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lg_project1/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2618">
+          <caret line="154" column="20" lean-forward="true" selection-start-line="154" selection-start-column="20" selection-end-line="154" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lg_project1/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1632">
+          <caret line="96" column="0" lean-forward="true" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lg_project1/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3026">
+          <caret line="178" column="0" lean-forward="true" selection-start-line="178" selection-start-column="0" selection-end-line="178" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lg_project1/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2431">
+          <caret line="143" column="0" lean-forward="true" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_91/jre/lib/rt.jar!/java/lang/ClassLoader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="113" column="0" lean-forward="false" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.7.0/clojure-1.7.0.jar!/clojure/lang/PersistentVector.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3842">
+          <caret line="243" column="0" lean-forward="false" selection-start-line="243" selection-start-column="0" selection-end-line="243" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/net/mikera/vectorz/0.65.0/vectorz-0.65.0.jar!/mikera/matrixx/Matrixx.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="311" column="0" lean-forward="false" selection-start-line="311" selection-start-column="0" selection-end-line="311" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/net/mikera/vectorz-clj/0.47.0/vectorz-clj-0.47.0.jar!/mikera/vectorz/matrix_api.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="254" column="0" lean-forward="false" selection-start-line="254" selection-start-column="0" selection-end-line="254" selection-end-column="0" />
+          <folding>
+            <marker date="1505942491960" expanded="true" signature="0:1365" ph="(ns mikera.vectorz.matrix-api ...)" />
+            <marker date="1505942491960" expanded="true" signature="2323:2461" ph="(defmacro tag-symbol ...)" />
+            <marker date="1505942491960" expanded="true" signature="2463:2741" ph="(defn vectorz-type? ...)" />
+            <marker date="1505942491960" expanded="true" signature="2743:2885" ph="(defmacro vectorz? ...)" />
+            <marker date="1505942491960" expanded="true" signature="2887:3497" ph="(defmacro vectorz-coerce ...)" />
+            <marker date="1505942491960" expanded="true" signature="3499:3749" ph="(defmacro vectorz-clone ...)" />
+            <marker date="1505942491960" expanded="true" signature="3751:4158" ph="(defmacro avector-coerce ...)" />
+            <marker date="1505942491960" expanded="true" signature="4160:4543" ph="(defmacro amatrix-coerce ...)" />
+            <marker date="1505942491960" expanded="true" signature="4546:4875" ph="(defmacro with-clone ...)" />
+            <marker date="1505942491960" expanded="true" signature="4877:5221" ph="(defmacro with-vectorz-clone ...)" />
+            <marker date="1505942491960" expanded="true" signature="5223:5636" ph="(defmacro with-broadcast-clone ...)" />
+            <marker date="1505942491960" expanded="true" signature="5638:5992" ph="(defmacro with-broadcast-coerce ...)" />
+            <marker date="1505942491960" expanded="true" signature="6064:6357" ph="(defmacro int-array-coerce ...)" />
+            <marker date="1505942491960" expanded="true" signature="6360:7168" ph="(defmacro with-indexes ...)" />
+            <marker date="1505942491960" expanded="true" signature="7170:7998" ph="(defn avector-coerce* ...)" />
+            <marker date="1505942491960" expanded="true" signature="8001:8755" ph="(defn amatrix-coerce* ...)" />
+            <marker date="1505942491960" expanded="true" signature="8758:9598" ph="(defn vectorz-coerce* ...)" />
+            <marker date="1505942491960" expanded="true" signature="9600:9781" ph="(defmacro double-coerce ...)" />
+            <marker date="1505942491960" expanded="true" signature="9783:11545" ph="(eval ...)" />
+            <marker date="1505942491960" expanded="true" signature="11547:12059" ph="(defmacro with-keys ...)" />
+            <marker date="1505942491960" expanded="true" signature="12061:12555" ph="(extend-protocol mp/PQRDecomposition ...)" />
+            <marker date="1505942491960" expanded="true" signature="12557:12988" ph="(extend-protocol mp/PLUDecomposition ...)" />
+            <marker date="1505942491960" expanded="true" signature="12990:13437" ph="(extend-protocol mp/PCholeskyDecomposition ...)" />
+            <marker date="1505942491960" expanded="true" signature="13439:13901" ph="(extend-protocol mp/PSVDDecomposition ...)" />
+            <marker date="1505942491960" expanded="true" signature="14785:15035" ph="(extend-protocol mp/PNorm ...)" />
+            <marker date="1505942491960" expanded="true" signature="15037:15488" ph="(extend-protocol mp/PMatrixRank ...)" />
+            <marker date="1505942491960" expanded="true" signature="15490:15593" ph="(extend-protocol mp/PSolveLinear ...)" />
+            <marker date="1505942491960" expanded="true" signature="15595:15719" ph="(extend-protocol mp/PLeastSquares ...)" />
+            <marker date="1505942491960" expanded="true" signature="15721:15846" ph="(extend-protocol mp/PTypeInfo ...)" />
+            <marker date="1505942491960" expanded="true" signature="15848:15993" ph="(extend-protocol mp/PGenericValues ...)" />
+            <marker date="1505942491960" expanded="true" signature="15995:16134" ph="(extend-protocol mp/PMutableMatrixConstruction ...)" />
+            <marker date="1505942491960" expanded="true" signature="16137:16424" ph="(extend-protocol mp/PMatrixMutableScaling ...)" />
+            <marker date="1505942491960" expanded="true" signature="16426:16541" ph="(extend-protocol mp/PNumerical ...)" />
+            <marker date="1505942491960" expanded="true" signature="16543:16770" ph="(extend-protocol mp/PSameShape ...)" />
+            <marker date="1505942491960" expanded="true" signature="16772:17495" ph="(extend-protocol mp/PDoubleArrayOutput ...)" />
+            <marker date="1505942491960" expanded="true" signature="17498:17730" ph="(extend-protocol mp/PObjectArrayOutput ...)" />
+            <marker date="1505942491960" expanded="true" signature="17732:17864" ph="(extend-protocol mp/PVectorisable ...)" />
+            <marker date="1505942491960" expanded="true" signature="17866:17970" ph="(extend-protocol mp/PMutableFill ...)" />
+            <marker date="1505942491960" expanded="true" signature="17972:19511" ph="(extend-protocol mp/PDimensionInfo ...)" />
+            <marker date="1505942491960" expanded="true" signature="19517:20708" ph="(extend-protocol mp/PIndexedAccess ...)" />
+            <marker date="1505942491960" expanded="true" signature="20710:20896" ph="(extend-protocol mp/PZeroDimensionConstruction ...)" />
+            <marker date="1505942491960" expanded="true" signature="20898:21146" ph="(extend-protocol mp/PZeroDimensionAccess ...)" />
+            <marker date="1505942491960" expanded="true" signature="21148:21432" ph="(extend-protocol mp/PZeroDimensionSet ...)" />
+            <marker date="1505942491960" expanded="true" signature="21434:21542" ph="(extend-protocol mp/PImmutableMatrixConstruction ...)" />
+            <marker date="1505942491960" expanded="true" signature="21710:21961" ph="(extend-protocol mp/PSpecialisedConstructors ...)" />
+            <marker date="1505942491960" expanded="true" signature="21963:22158" ph="(extend-protocol mp/PPermutationMatrix ...)" />
+            <marker date="1505942491960" expanded="true" signature="22160:22289" ph="(extend-protocol mp/PBroadcast ...)" />
+            <marker date="1505942491960" expanded="true" signature="22292:22393" ph="(extend-protocol mp/PBroadcastLike ...)" />
+            <marker date="1505942491960" expanded="true" signature="22396:22500" ph="(extend-protocol mp/PBroadcastCoerce ...)" />
+            <marker date="1505942491960" expanded="true" signature="22502:22620" ph="(extend-protocol mp/PReshaping ...)" />
+            <marker date="1505942491960" expanded="true" signature="22623:22726" ph="(extend-protocol mp/PZeroCount ...)" />
+            <marker date="1505942491960" expanded="true" signature="22729:22816" ph="(extend-protocol mp/PArrayMetrics ...)" />
+            <marker date="1505942491960" expanded="true" signature="22818:23227" ph="(extend-protocol mp/PMatrixTypes ...)" />
+            <marker date="1505942491960" expanded="true" signature="23229:24717" ph="(extend-protocol mp/PIndexedSetting ...)" />
+            <marker date="1505942491960" expanded="true" signature="24723:26443" ph="(extend-protocol mp/PIndexedSettingMutable ...)" />
+            <marker date="1505942491960" expanded="true" signature="26445:26530" ph="(extend-protocol mp/PSparseArray ...)" />
+            <marker date="1505942491960" expanded="true" signature="26532:26666" ph="(extend-protocol mp/PNewSparseArray ...)" />
+            <marker date="1505942491960" expanded="true" signature="26668:26924" ph="(extend-protocol mp/PMatrixEquality ...)" />
+            <marker date="1505942491960" expanded="true" signature="26926:27100" ph="(extend-protocol mp/PValueEquality ...)" />
+            <marker date="1505942491960" expanded="true" signature="27102:27252" ph="(extend-protocol mp/PMatrixEqualityEpsilon ...)" />
+            <marker date="1505942491960" expanded="true" signature="27254:28430" ph="(extend-protocol mp/PMatrixSlices ...)" />
+            <marker date="1505942491960" expanded="true" signature="28432:28622" ph="(extend-protocol mp/PRotate ...)" />
+            <marker date="1505942491960" expanded="true" signature="28625:29036" ph="(extend-protocol mp/PShift ...)" />
+            <marker date="1505942491960" expanded="true" signature="29038:29240" ph="(extend-protocol mp/POrder ...)" />
+            <marker date="1505942491960" expanded="true" signature="29242:29322" ph="(extend-protocol mp/PMatrixRows ...)" />
+            <marker date="1505942491960" expanded="true" signature="29324:29413" ph="(extend-protocol mp/PMatrixColumns ...)" />
+            <marker date="1505942491960" expanded="true" signature="29415:29732" ph="(extend-protocol mp/PRowSetting ...)" />
+            <marker date="1505942491960" expanded="true" signature="29734:30064" ph="(extend-protocol mp/PColumnSetting ...)" />
+            <marker date="1505942491960" expanded="true" signature="30066:30167" ph="(extend-protocol mp/PSliceView ...)" />
+            <marker date="1505942491960" expanded="true" signature="30169:30278" ph="(extend-protocol mp/PSliceView2 ...)" />
+            <marker date="1505942491960" expanded="true" signature="30280:30638" ph="(extend-protocol mp/PSliceSeq ...)" />
+            <marker date="1505942491960" expanded="true" signature="30640:31167" ph="(extend-protocol mp/PSliceSeq2 ...)" />
+            <marker date="1505942491960" expanded="true" signature="31169:31281" ph="(extend-protocol mp/PSliceViewSeq ...)" />
+            <marker date="1505942491960" expanded="true" signature="31283:31388" ph="(extend-protocol mp/PMatrixSubComponents ...)" />
+            <marker date="1505942491960" expanded="true" signature="31390:32989" ph="(extend-protocol mp/PAssignment ...)" />
+            <marker date="1505942491960" expanded="true" signature="32991:33345" ph="(extend-protocol mp/PSubVector ...)" />
+            <marker date="1505942491960" expanded="true" signature="33348:33888" ph="(extend-protocol mp/PSubMatrix ...)" />
+            <marker date="1505942491960" expanded="true" signature="33924:34737" ph="(extend-protocol mp/PSelect ...)" />
+            <marker date="1505942491960" expanded="true" signature="34739:34964" ph="(extend-protocol mp/PSetSelection ...)" />
+            <marker date="1505942491960" expanded="true" signature="34966:35230" ph="(extend-protocol mp/PIndicesAccess ...)" />
+            <marker date="1505942491960" expanded="true" signature="35232:35637" ph="(extend-protocol mp/PIndicesSetting ...)" />
+            <marker date="1505942491960" expanded="true" signature="35639:35890" ph="(extend-protocol mp/PNonZeroIndices ...)" />
+            <marker date="1505942491960" expanded="true" signature="35926:36167" ph="(extend-protocol mp/PSummable ...)" />
+            <marker date="1505942491960" expanded="true" signature="36169:37038" ph="(extend-protocol mp/PMatrixAdd ...)" />
+            <marker date="1505942491960" expanded="true" signature="37040:37589" ph="(extend-protocol mp/PMatrixAddMutable ...)" />
+            <marker date="1505942491960" expanded="true" signature="37591:37764" ph="(extend-protocol mp/PScaleAdd ...)" />
+            <marker date="1505942491960" expanded="true" signature="37766:38300" ph="(extend-protocol mp/PVectorOps ...)" />
+            <marker date="1505942491960" expanded="true" signature="38302:38541" ph="(extend-protocol mp/PNegation ...)" />
+            <marker date="1505942491960" expanded="true" signature="38543:38719" ph="(extend-protocol mp/PTranspose ...)" />
+            <marker date="1505942491960" expanded="true" signature="38722:38867" ph="(extend-protocol mp/PTransposeInPlace ...)" />
+            <marker date="1505942491960" expanded="true" signature="38870:39305" ph="(extend-protocol mp/PVectorCross ...)" />
+            <marker date="1505942491960" expanded="true" signature="39308:39508" ph="(extend-protocol mp/PMatrixCloning ...)" />
+            <marker date="1505942491960" expanded="true" signature="39510:39867" ph="(extend-protocol mp/PCoercion ...)" />
+            <marker date="1505942491960" expanded="true" signature="39869:40095" ph="(extend-protocol mp/PRowColMatrix ...)" />
+            <marker date="1505942491960" expanded="true" signature="40097:40610" ph="(extend-protocol mp/PValidateShape ...)" />
+            <marker date="1505942491960" expanded="true" signature="40613:41169" ph="(extend-protocol mp/PConversion ...)" />
+            <marker date="1505942491960" expanded="true" signature="41171:41751" ph="(extend-protocol mp/PMatrixDivide ...)" />
+            <marker date="1505942491960" expanded="true" signature="41753:42022" ph="(extend-protocol mp/PMatrixDivideMutable ...)" />
+            <marker date="1505942491960" expanded="true" signature="42024:43099" ph="(extend-protocol mp/PMatrixMultiply ...)" />
+            <marker date="1505942491960" expanded="true" signature="43101:43483" ph="(extend-protocol mp/PMatrixMultiplyMutable ...)" />
+            <marker date="1505942491960" expanded="true" signature="43485:43632" ph="(extend-protocol mp/PMatrixDivideMutable ...)" />
+            <marker date="1505942491960" expanded="true" signature="43634:43807" ph="(extend-protocol mp/PMatrixProducts ...)" />
+            <marker date="1505942491960" expanded="true" signature="43809:43955" ph="(defn vectorz-scale ...)" />
+            <marker date="1505942491960" expanded="true" signature="43957:44114" ph="(extend-protocol mp/PAddProduct ...)" />
+            <marker date="1505942491960" expanded="true" signature="44117:44353" ph="(extend-protocol mp/PAddProductMutable ...)" />
+            <marker date="1505942491960" expanded="true" signature="44356:44802" ph="(extend-protocol mp/PAddInnerProductMutable ...)" />
+            <marker date="1505942491960" expanded="true" signature="44805:45251" ph="(extend-protocol mp/PAddOuterProductMutable ...)" />
+            <marker date="1505942491960" expanded="true" signature="45254:45700" ph="(extend-protocol mp/PSetInnerProductMutable ...)" />
+            <marker date="1505942491960" expanded="true" signature="45703:46004" ph="(extend-protocol mp/PAddScaled ...)" />
+            <marker date="1505942491960" expanded="true" signature="46007:46366" ph="(extend-protocol mp/PAddScaledMutable ...)" />
+            <marker date="1505942491960" expanded="true" signature="46369:46704" ph="(extend-protocol mp/PAddScaledProduct ...)" />
+            <marker date="1505942491960" expanded="true" signature="46707:47003" ph="(extend-protocol mp/PAddScaledProductMutable ...)" />
+            <marker date="1505942491960" expanded="true" signature="47006:47653" ph="(extend-protocol mp/PLerp ...)" />
+            <marker date="1505942491960" expanded="true" signature="47655:48180" ph="(extend-protocol mp/PMatrixScaling ...)" />
+            <marker date="1505942491960" expanded="true" signature="48182:48514" ph="(extend-protocol mp/PVectorTransform ...)" />
+            <marker date="1505942491960" expanded="true" signature="48516:48779" ph="(extend-protocol mp/PMutableVectorOps ...)" />
+            <marker date="1505942491960" expanded="true" signature="48781:49114" ph="(extend-protocol mp/PMatrixOps ...)" />
+            <marker date="1505942491960" expanded="true" signature="49116:49640" ph="(extend-protocol mp/PMatrixPredicates ...)" />
+            <marker date="1505942491960" expanded="true" signature="49642:49795" ph="(extend-protocol mp/PSquare ...)" />
+            <marker date="1505942491960" expanded="true" signature="49797:50056" ph="(extend-protocol mp/PExponent ...)" />
+            <marker date="1505942491960" expanded="true" signature="50058:50154" ph="(extend-protocol mp/PLogistic ...)" />
+            <marker date="1505942491960" expanded="true" signature="50156:50256" ph="(extend-protocol mp/PLogisticMutable ...)" />
+            <marker date="1505942491960" expanded="true" signature="50258:50354" ph="(extend-protocol mp/PSoftplus ...)" />
+            <marker date="1505942491960" expanded="true" signature="50356:50456" ph="(extend-protocol mp/PSoftplusMutable ...)" />
+            <marker date="1505942491960" expanded="true" signature="50458:50538" ph="(extend-protocol mp/PSoftmax ...)" />
+            <marker date="1505942491960" expanded="true" signature="50540:50624" ph="(extend-protocol mp/PSoftmaxMutable ...)" />
+            <marker date="1505942491960" expanded="true" signature="50626:50715" ph="(extend-protocol mp/PReLU ...)" />
+            <marker date="1505942491960" expanded="true" signature="50717:50810" ph="(extend-protocol mp/PReLUMutable ...)" />
+            <marker date="1505942491960" expanded="true" signature="50813:51116" ph="(extend-protocol mp/PElementCount ...)" />
+            <marker date="1505942491960" expanded="true" signature="51118:51510" ph="(extend-protocol mp/PSparse ...)" />
+            <marker date="1505942491960" expanded="true" signature="51512:51677" ph="(extend-protocol mp/PSliceJoin ...)" />
+            <marker date="1505942491960" expanded="true" signature="51679:51798" ph="(extend-protocol mp/PSliceJoinAlong ...)" />
+            <marker date="1505942491960" expanded="true" signature="51800:51921" ph="(extend-protocol mp/PVectorView ...)" />
+            <marker date="1505942491960" expanded="true" signature="51923:52029" ph="(extend-protocol mp/PVectorDistance ...)" />
+            <marker date="1505942491960" expanded="true" signature="52031:52165" ph="(extend-protocol mp/PElementMinMax ...)" />
+            <marker date="1505942491960" expanded="true" signature="52167:52994" ph="(extend-protocol mp/PComputeMatrix ...)" />
+            <marker date="1505942491960" expanded="true" signature="52996:56662" ph="(extend-protocol mp/PFunctionalOperations ...)" />
+            <marker date="1505942491960" expanded="true" signature="56664:58957" ph="(extend-protocol mp/PCompare ...)" />
+            <marker date="1505942491960" expanded="true" signature="59066:59510" ph="(def math-op-mapping ...)" />
+            <marker date="1505942491960" expanded="true" signature="59512:60145" ph="(eval ...)" />
+            <marker date="1505942491960" expanded="true" signature="60147:60703" ph="(eval ...)" />
+            <marker date="1505942491960" expanded="true" signature="60725:60828" ph="(defmethod print-dup ...)" />
+            <marker date="1505942491960" expanded="true" signature="60830:60933" ph="(defmethod print-dup ...)" />
+            <marker date="1505942491960" expanded="true" signature="60935:61038" ph="(defmethod print-dup ...)" />
+            <marker date="1505942491960" expanded="true" signature="61040:61143" ph="(defmethod print-dup ...)" />
+            <marker date="1505942491960" expanded="true" signature="61145:61251" ph="(defmethod print-method ...)" />
+            <marker date="1505942491960" expanded="true" signature="61253:61359" ph="(defmethod print-method ...)" />
+            <marker date="1505942491960" expanded="true" signature="61361:61467" ph="(defmethod print-method ...)" />
+            <marker date="1505942491960" expanded="true" signature="61469:61575" ph="(defmethod print-method ...)" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lg_project1/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="15" lean-forward="true" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+          <folding>
+            <marker date="1505063609000" expanded="true" signature="0:36" ph="(ns lg-project1.core ...)" />
+            <marker date="1505063609000" expanded="true" signature="38:145" ph="(defn arities ...)" />
+            <marker date="1505063609000" expanded="true" signature="147:265" ph="(defn square? ...)" />
+            <marker date="1505063609000" expanded="true" signature="267:337" ph="(defn ones-and-zeroes? ...)" />
+            <marker date="1505063609000" expanded="true" signature="339:471" ph="(defn create-open?-map ...)" />
+            <marker date="1505063609000" expanded="true" signature="473:543" ph="(defn convert-elements-to-maps ...)" />
+            <marker date="1505063609000" expanded="true" signature="545:665" ph="(defn convert-into-matrix ...)" />
+            <marker date="1505063609000" expanded="true" signature="667:727" ph="(def required-input-keys ...)" />
+            <marker date="1505063609000" expanded="true" signature="729:798" ph="(defn input-has-all-keys? ...)" />
+            <marker date="1505063609000" expanded="true" signature="800:936" ph="(defn valid-input? ...)" />
+            <marker date="1505063609000" expanded="true" signature="938:1033" ph="(defn calculate-size ...)" />
+            <marker date="1505063609000" expanded="true" signature="1035:1208" ph="(defn generate-2d-board ...)" />
+            <marker date="1505063609000" expanded="true" signature="1210:1363" ph="(defn assoc-at-positions ...)" />
+            <marker date="1505063609000" expanded="true" signature="1365:1685" ph="(defn assoc-at-positions-t ...)" />
+            <marker date="1505063609000" expanded="true" signature="1687:1814" ph="(defn generate-yx-vectors ...)" />
+            <marker date="1505063609000" expanded="true" signature="1816:1886" ph="(defn generate-positions-list ...)" />
+            <marker date="1505063609000" expanded="true" signature="1888:2111" ph="(defn reachable? ...)" />
+            <marker date="1505063609000" expanded="true" signature="2114:2296" ph="(defn valid-moves ...)" />
+            <marker date="1505063609000" expanded="true" signature="2298:2401" ph="(defn apply-moves ...)" />
+            <marker date="1505063609000" expanded="true" signature="2403:2510" ph="(defn apply-moves-t ...)" />
+            <marker date="1505063609000" expanded="true" signature="2512:2626" ph="(defn move-towards ...)" />
+            <marker date="1505063609000" expanded="true" signature="2628:2706" ph="(defn king ...)" />
+            <marker date="1505063609000" expanded="true" signature="2708:2847" ph="(defn knight ...)" />
+            <marker date="1505063609000" expanded="true" signature="2849:2947" ph="(defn queen ...)" />
+            <marker date="1505063609000" expanded="true" signature="2949:3175" ph="(defn rook ...)" />
+            <marker date="1505063609000" expanded="true" signature="3177:3233" ph="(defn bishop ...)" />
+            <marker date="1505063609000" expanded="true" signature="3235:3321" ph="(defn pawn ...)" />
+            <marker date="1505063609000" expanded="true" signature="3323:3692" ph="(def test-input ...)" />
+            <marker date="1505063609000" expanded="true" signature="3694:3795" ph="(def fifteen-input ...)" />
+            <marker date="1505063609000" expanded="true" signature="3798:4269" ph="(defn add-reachability-for-pos ...)" />
+            <marker date="1505063609000" expanded="true" signature="4271:4746" ph="(defn add-reachability-for-pos-t ...)" />
+            <marker date="1505063609000" expanded="true" signature="4749:5167" ph="(defn process-next-moves-till-empty ...)" />
+            <marker date="1505063609000" expanded="true" signature="5169:5591" ph="(defn process-next-moves-till-empty-t ...)" />
+            <marker date="1505063609000" expanded="true" signature="5593:5674" ph="(defn output-reachability-board ...)" />
+            <marker date="1505063609000" expanded="true" signature="5676:5787" ph="(defn char-range ...)" />
+            <marker date="1505063609000" expanded="true" signature="5789:6132" ph="(defn add-rank-file ...)" />
+            <marker date="1505063609000" expanded="true" signature="6134:6393" ph="(defn convert-to-printable-table ...)" />
+            <marker date="1505063609000" expanded="true" signature="6395:7173" ph="(defn test-run ...)" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/hswick/jutsu/0.1.1/jutsu-0.1.1.jar!/jutsu/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="36" lean-forward="true" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+          <folding>
+            <marker date="1511570417279" expanded="true" signature="0:48" ph="(ns jutsu.core ...)" />
+            <marker date="1511570417279" expanded="true" signature="155:509" ph="(defn start-jutsu! ...)" />
+            <marker date="1511570417279" expanded="true" signature="622:1192" ph="(defn graph! ...)" />
+            <marker date="1511570417279" expanded="true" signature="1243:1635" ph="(defn update-graph! ...)" />
+            <marker date="1511570417279" expanded="true" signature="1637:1942" ph="(defn dataset! ...)" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lg_project1/reachability.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="633">
+          <caret line="309" column="0" lean-forward="true" selection-start-line="309" selection-start-column="0" selection-end-line="309" selection-end-column="0" />
+          <folding>
+            <marker date="1513471435256" expanded="true" signature="0:91" ph="(ns lg-project1.reachability ...)" />
+            <marker date="1513471435256" expanded="true" signature="161:352" ph="(def king ...)" />
+            <marker date="1513471435256" expanded="true" signature="354:650" ph="(def knight ...)" />
+            <marker date="1513471435256" expanded="true" signature="653:770" ph="(defn define-movement ...)" />
+            <marker date="1513471435256" expanded="true" signature="772:831" ph="(def rook ...)" />
+            <marker date="1513471435256" expanded="true" signature="833:922" ph="(def bishop ...)" />
+            <marker date="1513471435256" expanded="true" signature="924:958" ph="(def queen ...)" />
+            <marker date="1513471435256" expanded="true" signature="960:996" ph="(def pawn-black ...)" />
+            <marker date="1513471435256" expanded="true" signature="998:1034" ph="(def pawn-white ...)" />
+            <marker date="1513471435256" expanded="true" signature="1036:1105" ph="(defn loc-conv ...)" />
+            <marker date="1513471435256" expanded="true" signature="1107:1225" ph="(defn print-mget ...)" />
+            <marker date="1513471435256" expanded="true" signature="1227:1283" ph="(defn print-mset ...)" />
+            <marker date="1513471435256" expanded="true" signature="1285:1361" ph="(defn r-get ...)" />
+            <marker date="1513471435256" expanded="true" signature="1363:1443" ph="(defn r-set ...)" />
+            <marker date="1513471435256" expanded="true" signature="1445:1515" ph="(defn ones-and-zeroes? ...)" />
+            <marker date="1513471435256" expanded="true" signature="1517:1577" ph="(def required-input-keys ...)" />
+            <marker date="1513471435256" expanded="true" signature="1579:1648" ph="(defn input-has-all-keys? ...)" />
+            <marker date="1513471435256" expanded="true" signature="1650:1907" ph="(defn valid-input-map? ...)" />
+            <marker date="1513471435256" expanded="true" signature="1909:2036" ph="(defn input-board-to-matrix ...)" />
+            <marker date="1513471435256" expanded="true" signature="2038:2234" ph="(defn input-board-convert-sentinels ...)" />
+            <marker date="1513471435256" expanded="true" signature="2236:2301" ph="(defn set-start-position ...)" />
+            <marker date="1513471435256" expanded="true" signature="2303:2429" ph="(defn generate-yx-vectors ...)" />
+            <marker date="1513471435256" expanded="true" signature="2431:2501" ph="(defn generate-positions-list ...)" />
+            <marker date="1513471435256" expanded="true" signature="2503:2738" ph="(def test-input ...)" />
+            <marker date="1513471435256" expanded="true" signature="2740:2967" ph="(defn reachable? ...)" />
+            <marker date="1513471435256" expanded="true" signature="2969:3262" ph="(defn reachable-positions-matrix ...)" />
+            <marker date="1513471435256" expanded="true" signature="3264:3540" ph="(defn movement-sequence ...)" />
+            <marker date="1513471435256" expanded="true" signature="3542:3685" ph="(defn all-movement-sequences ...)" />
+            <marker date="1513471435256" expanded="true" signature="3687:4044" ph="(defn get-reachable-positions-broken ...)" />
+            <marker date="1513471435256" expanded="true" signature="4046:4574" ph="(defn get-reachable-positions ...)" />
+            <marker date="1513471435256" expanded="true" signature="4576:5110" ph="(defn add-reachability-for-position ...)" />
+            <marker date="1513471435256" expanded="true" signature="5112:5564" ph="(defn process-next-moves-till-empty ...)" />
+            <marker date="1513471435256" expanded="true" signature="5566:6368" ph="(defn convert-input ...)" />
+            <marker date="1513471435256" expanded="true" signature="6370:6410" ph="(defn reachability-set ...)" />
+            <marker date="1513471435256" expanded="true" signature="6412:6699" ph="(defn get-reachability ...)" />
+            <marker date="1513471435256" expanded="true" signature="6701:6828" ph="(defn clean-vector ...)" />
+            <marker date="1513471435256" expanded="true" signature="6830:6947" ph="(defn print-reachability ...)" />
+            <marker date="1513471435256" expanded="true" signature="6949:7097" ph="(defn get-size ...)" />
+            <marker date="1513471435256" expanded="true" signature="7099:7475" ph="(defn get-blocked-list ...)" />
+            <marker date="1513471435256" expanded="true" signature="7477:7625" ph="(defn get-start-pos ...)" />
+            <marker date="1513471435256" expanded="true" signature="7627:8107" ph="(defn get-reachability-fn ...)" />
+            <marker date="1513471435256" expanded="true" signature="8109:8458" ph="(defn reachability-in-out ...)" />
+            <marker date="1513471435256" expanded="true" signature="8460:9068" ph="(defn run-examples ...)" />
+            <marker date="1513471435256" expanded="true" signature="9070:9582" ph="(defn input-loop ...)" />
+            <marker date="1513471435256" expanded="true" signature="9584:9620" ph="(defn -main-old ...)" />
+            <marker date="1513471435256" expanded="true" signature="9622:9703" ph="(defn test-run ...)" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lg_project1/trajectories.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1098">
+          <caret line="183" column="27" lean-forward="true" selection-start-line="183" selection-start-column="27" selection-end-line="183" selection-end-column="27" />
+          <folding>
+            <marker date="1513477797869" expanded="true" signature="0:224" ph="(ns lg-project1.trajectories ...)" />
+            <marker date="1513477797869" expanded="true" signature="226:403" ph="(def traj-input ...)" />
+            <marker date="1513477797869" expanded="true" signature="405:467" ph="(defn conv-xy ...)" />
+            <marker date="1513477797869" expanded="true" signature="469:732" ph="(defn get-set ...)" />
+            <marker date="1513477797869" expanded="true" signature="734:1425" ph="(defn generate-start-state ...)" />
+            <marker date="1513477797869" expanded="true" signature="1427:1989" ph="(defn flat-trajectories ...)" />
+            <marker date="1513477797869" expanded="true" signature="1991:2329" ph="(defn get-trajectories ...)" />
+            <marker date="1513477797869" expanded="true" signature="2331:2859" ph="(defn admissable ...)" />
+            <marker date="1513477797869" expanded="true" signature="2861:2950" ph="(defn both-trajectories ...)" />
+            <marker date="1513477797869" expanded="true" signature="2952:3765" ph="(def test-data ...)" />
+            <marker date="1513477797869" expanded="true" signature="3767:4510" ph="(def plot-layout ...)" />
+            <marker date="1513477797869" expanded="true" signature="4512:4707" ph="(defn start-marker ...)" />
+            <marker date="1513477797869" expanded="true" signature="4709:4898" ph="(defn end-marker ...)" />
+            <marker date="1513477797869" expanded="true" signature="4900:5121" ph="(defn traj-line ...)" />
+            <marker date="1513477797869" expanded="true" signature="5123:5416" ph="(defn block-marker ...)" />
+            <marker date="1513477797869" expanded="true" signature="5418:5904" ph="(defn traj-input-to-plot ...)" />
+            <marker date="1513477797869" expanded="true" signature="5906:6077" ph="(defn add-graph ...)" />
+            <marker date="1513477797869" expanded="true" signature="6079:6559" ph="(defn traj-input-to-plot-admis ...)" />
+            <marker date="1513477797869" expanded="true" signature="6561:6744" ph="(defn add-graph-admis ...)" />
+            <marker date="1513477797869" expanded="true" signature="6746:6942" ph="(def fast-king ...)" />
+            <marker date="1513477797869" expanded="true" signature="6944:7094" ph="(defn get-target-pos ...)" />
+            <marker date="1513477797869" expanded="true" signature="7096:7488" ph="(defn add-custom-graph ...)" />
+            <marker date="1513477797869" expanded="true" signature="7490:7729" ph="(defn choice-loop ...)" />
+            <marker date="1513477797869" expanded="true" signature="7731:9295" ph="(defn main-old ...)" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="25" lean-forward="false" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <folding>
+            <marker date="1513474627462" expanded="true" signature="0:478" ph="(defproject lg-project1 ...)" />
+            <marker date="1513474627462" expanded="true" signature="0:496" ph="(defproject lg-project1 ...)" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lg_project1/zones.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="642">
+          <caret line="363" column="0" lean-forward="true" selection-start-line="363" selection-start-column="0" selection-end-line="363" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>IDE SDK</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>lg-project1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>IDE SDK</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Leiningen: hswick/jutsu:0.1.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

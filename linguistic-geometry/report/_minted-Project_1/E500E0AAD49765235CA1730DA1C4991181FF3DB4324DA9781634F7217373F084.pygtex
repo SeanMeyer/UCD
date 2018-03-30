@@ -1,0 +1,40 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{p}{(}\PYG{k+kd}{defn }\PYG{n+nv}{king}
+  \PYG{p}{[}\PYG{n+nv}{x\PYGZhy{}dist} \PYG{n+nv}{y\PYGZhy{}dist} \PYG{o}{\PYGZam{}} \PYG{n+nv}{xy}\PYG{p}{]}
+  \PYG{p}{(}\PYG{n+nf}{and}
+    \PYG{p}{(}\PYG{n+nb}{\PYGZlt{}= }\PYG{n+nv}{x\PYGZhy{}dist} \PYG{l+m+mi}{1}\PYG{p}{)}
+    \PYG{p}{(}\PYG{n+nb}{\PYGZlt{}= }\PYG{n+nv}{y\PYGZhy{}dist} \PYG{l+m+mi}{1}\PYG{p}{)))}
+
+\PYG{p}{(}\PYG{k+kd}{defn }\PYG{n+nv}{knight}
+  \PYG{p}{[}\PYG{n+nv}{x\PYGZhy{}dist} \PYG{n+nv}{y\PYGZhy{}dist} \PYG{o}{\PYGZam{}} \PYG{n+nv}{xy}\PYG{p}{]}
+  \PYG{p}{(}\PYG{n+nf}{or}
+    \PYG{p}{(}\PYG{n+nf}{and}
+      \PYG{p}{(}\PYG{n+nb}{= }\PYG{n+nv}{x\PYGZhy{}dist} \PYG{l+m+mi}{2}\PYG{p}{)}
+      \PYG{p}{(}\PYG{n+nb}{= }\PYG{n+nv}{y\PYGZhy{}dist} \PYG{l+m+mi}{1}\PYG{p}{))}
+    \PYG{p}{(}\PYG{n+nf}{and}
+      \PYG{p}{(}\PYG{n+nb}{= }\PYG{n+nv}{x\PYGZhy{}dist} \PYG{l+m+mi}{1}\PYG{p}{)}
+      \PYG{p}{(}\PYG{n+nb}{= }\PYG{n+nv}{y\PYGZhy{}dist} \PYG{l+m+mi}{2}\PYG{p}{))))}
+
+\PYG{p}{(}\PYG{k+kd}{defn }\PYG{n+nv}{queen}
+  \PYG{p}{[}\PYG{n+nv}{x\PYGZhy{}dist} \PYG{n+nv}{y\PYGZhy{}dist} \PYG{o}{\PYGZam{}} \PYG{n+nv}{xy}\PYG{p}{]}
+  \PYG{p}{(}\PYG{n+nf}{or}
+    \PYG{p}{(}\PYG{n+nb}{= }\PYG{n+nv}{x\PYGZhy{}dist} \PYG{l+m+mi}{0}\PYG{p}{)}
+    \PYG{p}{(}\PYG{n+nb}{= }\PYG{n+nv}{y\PYGZhy{}dist} \PYG{l+m+mi}{0}\PYG{p}{)}
+    \PYG{p}{(}\PYG{n+nb}{= }\PYG{n+nv}{x\PYGZhy{}dist} \PYG{n+nv}{y\PYGZhy{}dist}\PYG{p}{)))}
+
+\PYG{p}{(}\PYG{k+kd}{defn }\PYG{n+nv}{rook}
+  \PYG{p}{[}\PYG{n+nv}{x\PYGZhy{}dist} \PYG{n+nv}{y\PYGZhy{}dist} \PYG{o}{\PYGZam{}} \PYG{n+nv}{xy}\PYG{p}{]}
+  \PYG{p}{(}\PYG{n+nf}{or}
+    \PYG{p}{(}\PYG{n+nb}{= }\PYG{n+nv}{x\PYGZhy{}dist} \PYG{l+m+mi}{0}\PYG{p}{)}
+    \PYG{p}{(}\PYG{n+nb}{= }\PYG{n+nv}{y\PYGZhy{}dist} \PYG{l+m+mi}{0}\PYG{p}{)))}
+
+\PYG{p}{(}\PYG{k+kd}{defn }\PYG{n+nv}{bishop}
+  \PYG{p}{[}\PYG{n+nv}{x\PYGZhy{}dist} \PYG{n+nv}{y\PYGZhy{}dist} \PYG{o}{\PYGZam{}} \PYG{n+nv}{xy}\PYG{p}{]}
+  \PYG{p}{(}\PYG{n+nb}{= }\PYG{n+nv}{x\PYGZhy{}dist} \PYG{n+nv}{y\PYGZhy{}dist}\PYG{p}{))}
+
+\PYG{p}{(}\PYG{k+kd}{defn }\PYG{n+nv}{pawn}
+  \PYG{p}{[}\PYG{n+nv}{x\PYGZhy{}dist} \PYG{n+nv}{y\PYGZhy{}dist} \PYG{n+nv}{x1} \PYG{n+nv}{y1} \PYG{n+nv}{x2} \PYG{n+nv}{y2}\PYG{p}{]}
+  \PYG{p}{(}\PYG{n+nf}{and}
+    \PYG{p}{(}\PYG{n+nb}{= }\PYG{n+nv}{x\PYGZhy{}dist} \PYG{l+m+mi}{0}\PYG{p}{)}
+    \PYG{p}{(}\PYG{n+nb}{= }\PYG{p}{(}\PYG{n+nb}{\PYGZhy{} }\PYG{n+nv}{y1} \PYG{n+nv}{y2}\PYG{p}{)} \PYG{l+m+mi}{1}\PYG{p}{)))}
+\end{Verbatim}
