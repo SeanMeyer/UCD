@@ -1,0 +1,6 @@
+c:\users\nimblerabit\documents\visual studio 2012\Projects\SortingAlgorithms\SortingAlgorithms\bin\Debug\SortingAlgorithms.exe.config
+C:\Users\Nimblerabit\documents\visual studio 2012\Projects\SortingAlgorithms\SortingAlgorithms\bin\Debug\SortingAlgorithms.exe
+C:\Users\Nimblerabit\documents\visual studio 2012\Projects\SortingAlgorithms\SortingAlgorithms\bin\Debug\SortingAlgorithms.pdb
+C:\Users\Nimblerabit\documents\visual studio 2012\Projects\SortingAlgorithms\SortingAlgorithms\obj\Debug\SortingAlgorithms.exe
+C:\Users\Nimblerabit\documents\visual studio 2012\Projects\SortingAlgorithms\SortingAlgorithms\obj\Debug\SortingAlgorithms.pdb
+C:\Users\Nimblerabit\documents\visual studio 2012\Projects\SortingAlgorithms\SortingAlgorithms\obj\Debug\SortingAlgorithms.csprojResolveAssemblyReference.cache
