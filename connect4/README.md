@@ -21,21 +21,20 @@ called negamax, with alpha beta pruning. This was taken from Wikipedia,
 which has the following psuedo code for the algorithm:
 
 ```
-function negamax(node, depth, Îś, Îš, color)
-if depth = 0 or node is a terminal node
-return color * the heuristic value of node
-```
-```
-childNodes := GenerateMoves(node)
-childNodes := OrderMoves(childNodes)
-bestValue := âĹŠâĹđ
-foreach child in childNodes
-v := âĹŠnegamax(child, depth âĹŠ 1, âĹŠÎš, âĹŠÎś, âĹŠcolor)
-bestValue := max( bestValue, v )
-Îś := max( Îś, v )
-if Îś âĽě Îš
-break
-return bestValue
+01 function negamax(node, depth, α, β, color)
+02     if depth = 0 or node is a terminal node
+03         return color * the heuristic value of node
+
+04     childNodes := GenerateMoves(node)
+05     childNodes := OrderMoves(childNodes)
+06     bestValue := −∞
+07     foreach child in childNodes
+08         v := −negamax(child, depth − 1, −β, −α, −color)
+09         bestValue := max( bestValue, v )
+10         α := max( α, v )
+11         if α ≥ β
+12             break
+13     return bestValue
 ```
 I used this same algorithm for my implementation, adding parameters for player
 and opponent in order to do static evaluations for each player, switching back
