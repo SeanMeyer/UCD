@@ -18,6 +18,14 @@ Here is an example of the output from the trajectory code, given a few different
 
 Here is an example of the output from the zones code, given a specific starting scenario.
 
+### Given Board
 ![Zones 1](https://github.com/SeanMeyer/UCD/blob/master/linguistic-geometry/Images/readme1.PNG)
+
+### Plot board with main trajectory shown
 ![Zones 2](https://github.com/SeanMeyer/UCD/blob/master/linguistic-geometry/Images/readme2.PNG)
+
+### Find and plot first negation zone
+![Zones 3](https://github.com/SeanMeyer/UCD/blob/master/linguistic-geometry/Images/readme3.PNG)
+
+### Find and plot entire zone
 ![Zones 3](https://github.com/SeanMeyer/UCD/blob/master/linguistic-geometry/Images/readme3.PNG)
